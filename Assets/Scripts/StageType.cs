@@ -1,0 +1,37 @@
+using System;
+
+public enum StageType
+{
+	W01,
+	W02,
+	W03,
+	W04,
+	W05,
+	W06,
+	W07,
+	W08,
+	W09,
+	W10,
+	W11,
+	W12,
+	W13,
+	W14,
+	W15,
+	W16,
+	W17,
+	W18,
+	W19,
+	W20,
+	W21,
+	W22,
+	W23,
+	W24,
+	W25,
+	W26,
+	W27,
+	W28,
+	W29,
+	W30,
+	NUM,
+	NONE = -1
+}

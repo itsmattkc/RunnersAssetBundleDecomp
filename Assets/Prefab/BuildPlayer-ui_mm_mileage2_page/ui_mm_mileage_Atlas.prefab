@@ -1,0 +1,1085 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790296881769572301}
+  m_IsPrefabParent: 1
+--- !u!4 &1790296881769572309
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790296881769572301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790296881769572301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790296881769572309}
+  - component: {fileID: 1790296881769572317}
+  m_Layer: 0
+  m_Name: "ui_mm_mileage_Atlas"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790296881769572317
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790296881769572301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f5f25c810deb416a8a66fcad2b7faffd, type: 2}
+  mSprites:
+  - name: "ui_chao_set_bonus_icon_animal"
+    x: 403
+    y: 46
+    width: 62
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_chao_set_bonus_icon_fscore"
+    x: 469
+    y: 53
+    width: 63
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 9
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_chao_set_bonus_icon_range"
+    x: 432
+    y: 298
+    width: 83
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: "ui_chao_set_bonus_icon_ring"
+    x: 594
+    y: 51
+    width: 54
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_chao_set_bonus_icon_rsr"
+    x: 519
+    y: 298
+    width: 65
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_chao_set_bonus_icon_score"
+    x: 419
+    y: 111
+    width: 62
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_chao_set_type_icon_fly"
+    x: 570
+    y: 237
+    width: 57
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_chao_set_type_icon_power"
+    x: 536
+    y: 109
+    width: 57
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_chao_set_type_icon_speed"
+    x: 542
+    y: 171
+    width: 57
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_cmn_btn_bg_m_4"
+    x: 241
+    y: 663
+    width: 129
+    height: 101
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 38
+    borderBottom: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_btn_bg_m_gr_0"
+    x: 260
+    y: 818
+    width: 129
+    height: 101
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 38
+    borderBottom: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_btn_bg_m_gr_1"
+    x: 260
+    y: 923
+    width: 129
+    height: 101
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 38
+    borderBottom: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_btn_bg_m_gr_2"
+    x: 241
+    y: 558
+    width: 129
+    height: 101
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 38
+    borderBottom: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_btn_icon_play"
+    x: 485
+    y: 116
+    width: 41
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 17
+    paddingTop: 10
+    paddingBottom: 20
+  - name: "ui_cmn_icon_badge_0"
+    x: 502
+    y: 196
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_img_scroll_bar_h"
+    x: 400
+    y: 4
+    width: 16
+    height: 8
+    borderLeft: 5
+    borderRight: 5
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 4
+  - name: "ui_cmn_tex_flame"
+    x: 469
+    y: 17
+    width: 32
+    height: 32
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 10
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mainmenu_btn_episode"
+    x: 348
+    y: 105
+    width: 67
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 22
+    paddingTop: 5
+    paddingBottom: 14
+  - name: "ui_mainmenu_btn_info_0"
+    x: 270
+    y: 403
+    width: 55
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 10
+    paddingBottom: 19
+  - name: "ui_mainmenu_btn_option_0"
+    x: 536
+    y: 47
+    width: 54
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 13
+    paddingTop: 8
+    paddingBottom: 14
+  - name: "ui_mm_map_thumb_w01a"
+    x: 554
+    y: 928
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w01b"
+    x: 246
+    y: 303
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w02a"
+    x: 146
+    y: 203
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w02b"
+    x: 148
+    y: 103
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w03a"
+    x: 554
+    y: 828
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w03b"
+    x: 146
+    y: 303
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w05a"
+    x: 248
+    y: 103
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w07a"
+    x: 270
+    y: 458
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_map_thumb_w08a"
+    x: 246
+    y: 203
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_balloon"
+    x: 0
+    y: 139
+    width: 142
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 28
+    paddingBottom: 118
+  - name: "ui_mm_mileage_balloon_g"
+    x: 0
+    y: 317
+    width: 142
+    height: 206
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 28
+    paddingBottom: 86
+  - name: "ui_mm_mileage_blinder"
+    x: 146
+    y: 403
+    width: 120
+    height: 120
+    borderLeft: 52
+    borderRight: 52
+    borderTop: 52
+    borderBottom: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_blinder2"
+    x: 0
+    y: 768
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_bonus"
+    x: 430
+    y: 356
+    width: 101
+    height: 59
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_mm_mileage_bonus_2"
+    x: 260
+    y: 779
+    width: 350
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 5
+    borderBottom: 26
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_mm_mileage_bonus_3"
+    x: 348
+    y: 170
+    width: 190
+    height: 22
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 6
+    borderBottom: 12
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_mm_mileage_bonus_eff_0"
+    x: 0
+    y: 527
+    width: 237
+    height: 237
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_bonus_eff_1"
+    x: 393
+    y: 940
+    width: 130
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: "ui_mm_mileage_dec_pla_0"
+    x: 148
+    y: 43
+    width: 152
+    height: 56
+    borderLeft: 141
+    borderRight: 9
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_dec_pla_1"
+    x: 370
+    y: 496
+    width: 125
+    height: 58
+    borderLeft: 50
+    borderRight: 50
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_mm_mileage_dec_pla_2"
+    x: 439
+    y: 10
+    width: 24
+    height: 32
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 9
+    borderBottom: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_dec_pla_3"
+    x: 502
+    y: 232
+    width: 64
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 6
+  - name: "ui_mm_mileage_deco_0"
+    x: 393
+    y: 876
+    width: 157
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_deco_1"
+    x: 393
+    y: 821
+    width: 123
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_deco_2"
+    x: 304
+    y: 28
+    width: 95
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_friend"
+    x: 346
+    y: 350
+    width: 80
+    height: 104
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 24
+    paddingTop: 2
+    paddingBottom: 22
+  - name: "ui_mm_mileage_piece_0"
+    x: 346
+    y: 273
+    width: 82
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 12
+    paddingBottom: 11
+  - name: "ui_mm_mileage_piece_1"
+    x: 348
+    y: 196
+    width: 82
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 12
+    paddingBottom: 11
+  - name: "ui_mm_mileage_piece_2"
+    x: 430
+    y: 419
+    width: 82
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 12
+    paddingBottom: 11
+  - name: "ui_mm_mileage_route_0"
+    x: 370
+    y: 460
+    width: 32
+    height: 32
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 8
+    borderBottom: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_mileage_route_1"
+    x: 520
+    y: 860
+    width: 26
+    height: 12
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_animal_0"
+    x: 470
+    y: 198
+    width: 26
+    height: 12
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_animal_1"
+    x: 36
+    y: 5
+    width: 32
+    height: 18
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 7
+  - name: "ui_mm_mileage_route_animal_2"
+    x: 603
+    y: 211
+    width: 32
+    height: 22
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_mm_mileage_route_animal_3"
+    x: 256
+    y: 13
+    width: 32
+    height: 26
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_mm_mileage_route_distance_0"
+    x: 470
+    y: 214
+    width: 26
+    height: 12
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_distance_1"
+    x: 328
+    y: 6
+    width: 32
+    height: 18
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 7
+  - name: "ui_mm_mileage_route_distance_2"
+    x: 603
+    y: 185
+    width: 32
+    height: 22
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_mm_mileage_route_distance_3"
+    x: 434
+    y: 200
+    width: 32
+    height: 26
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_mm_mileage_route_ring_0"
+    x: 505
+    y: 5
+    width: 26
+    height: 12
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_ring_1"
+    x: 0
+    y: 5
+    width: 32
+    height: 18
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 7
+  - name: "ui_mm_mileage_route_ring_2"
+    x: 630
+    y: 25
+    width: 32
+    height: 22
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_mm_mileage_route_ring_3"
+    x: 220
+    y: 13
+    width: 32
+    height: 26
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_mm_mileage_route_rsring_0"
+    x: 520
+    y: 828
+    width: 26
+    height: 12
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_rsring_1"
+    x: 72
+    y: 5
+    width: 32
+    height: 18
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 7
+  - name: "ui_mm_mileage_route_rsring_2"
+    x: 505
+    y: 21
+    width: 32
+    height: 22
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_mm_mileage_route_rsring_3"
+    x: 184
+    y: 13
+    width: 32
+    height: 26
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_mm_mileage_route_score_0"
+    x: 520
+    y: 844
+    width: 26
+    height: 12
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_score_1"
+    x: 364
+    y: 6
+    width: 32
+    height: 18
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 7
+  - name: "ui_mm_mileage_route_score_2"
+    x: 541
+    y: 21
+    width: 32
+    height: 22
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_mm_mileage_route_score_3"
+    x: 403
+    y: 16
+    width: 32
+    height: 26
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_mm_mileage_route_total_0"
+    x: 108
+    y: 11
+    width: 26
+    height: 12
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 10
+  - name: "ui_mm_mileage_route_total_1"
+    x: 292
+    y: 6
+    width: 32
+    height: 18
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 7
+  - name: "ui_mm_mileage_route_total_2"
+    x: 594
+    y: 25
+    width: 32
+    height: 22
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_mm_mileage_route_total_3"
+    x: 148
+    y: 13
+    width: 32
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: "ui_player_set_lv_cursor_eff_2"
+    x: 597
+    y: 117
+    width: 50
+    height: 50
+    borderLeft: 24
+    borderRight: 24
+    borderTop: 24
+    borderBottom: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_ranking_bg_6"
+    x: 241
+    y: 530
+    width: 24
+    height: 24
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 8
+    borderBottom: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_roulette_dec_1s"
+    x: 0
+    y: 27
+    width: 144
+    height: 108
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_tex_event_temp"
+    x: 434
+    y: 230
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

@@ -1,0 +1,17 @@
+using System;
+
+public enum AbilityType
+{
+	LASER,
+	DRILL,
+	ASTEROID,
+	RING_BONUS,
+	DISTANCE_BONUS,
+	TRAMPOLINE,
+	ANIMAL,
+	COMBO,
+	MAGNET,
+	INVINCIBLE,
+	NUM,
+	NONE = -1
+}

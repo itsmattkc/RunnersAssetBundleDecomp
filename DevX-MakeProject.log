@@ -1,0 +1,243 @@
+48 Shader - find for 4.6.9f1
+28 Texture2D - find for 4.6.9f1
+21 Material - find for 4.6.9f1
+74 AnimationClip - find for 4.6.9f1
+4 Transform - find for 4.6.9f1
+1 GameObject - find for 4.6.9f1
+33 MeshFilter - find for 4.6.9f1
+64 MeshCollider - find for 4.6.9f1
+23 MeshRenderer - find for 4.6.9f1
+43 Mesh - find for 4.6.4p4
+49 TextAsset - find for 4.6.9f1
+114 MonoBehaviour - not find 4.6.9f1 and will be used 5.4.6f3
+115 MonoScript - find for 4.6.9f1
+65 BoxCollider - find for 4.6.9f1
+111 Animation - find for 4.6.9f1
+198 ParticleSystem - find for 4.6.9f1
+199 ParticleSystemRenderer - find for 4.6.9f1
+29 SceneSettings - find for 4.6.9f1
+20 Camera - find for 4.6.9f1
+92 GUILayer - find for 4.6.9f1
+124 FlareLayer - find for 4.6.9f1
+81 AudioListener - find for 4.6.9f1
+196 NavMeshSettings - find for 4.6.9f1
+54 Rigidbody - find for 4.6.9f1
+119 Projector - find for 4.6.9f1
+182 WindZone - find for 4.6.9f1
+108 Light - find for 4.6.9f1
+136 CapsuleCollider - find for 4.6.9f1
+135 SphereCollider - find for 4.6.9f1
+96 TrailRenderer - find for 4.6.9f1
+95 Animator - find for 4.6.9f1
+91 AnimatorController - find for 4.6.9f1
+129 PlayerSettings - find for 4.6.9f1
+13 InputManager - find for 4.6.9f1
+78 TagManager - find for 4.6.9f1
+11 AudioManager - find for 4.6.9f1
+5 TimeManager - find for 4.6.9f1
+55 PhysicsManager - find for 4.6.9f1
+141 BuildSettings - find for 4.6.9f1
+126 NavMeshAreas - find for 4.6.9f1
+19 Physics2DSettings - find for 4.6.9f1
+43 Mesh - find for 4.6.9f1
+48 Shader - find for 4.6.4p4
+28 Texture2D - find for 4.6.4p4
+21 Material - find for 4.6.4p4
+128 Font - not find 4.6.4p4 and will be used 4.6.3f1
+img read old
+114 MonoBehaviour - not find 4.6.4p4 and will be used 5.4.6f3
+115 MonoScript - find for 4.6.4p4
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+21 Material - find for 4.6.2f1
+1
+48 Shader - find for 4.6.2f1
+1
+74 AnimationClip - find for 4.6.2f1
+1
+43 Mesh - find for 4.6.2f1
+1
+Make Script DB
+Make Scripts
+Code decompile: Assembly-CSharp-firstpass.dll, class_name=*, type=StandartDecompiller
+ExtractZipFile: error for C:/Users/Matt/Downloads/DevXUnityUnpacker-WIN-LIC_OLDVERSION/DevXUnityUnpacker-WIN-LIC_Data/StreamingAssets\UnityDLL\Unity-4.1.5f1.zip
+System.TypeInitializationException: The type initializer for 'ZipStorer' threw an exception. ---> System.NotSupportedException: Encoding 437 data could not be found. Make sure you have correct international codeset assembly installed and enabled.
+  at System.Text.Encoding.GetEncoding (System.Int32 codepage) [0x0023f] in <ac823e2bb42b41bda67924a45a0173c3>:0 
+  at ZipStorer..cctor () [0x00006] in <53150db001e24456845a8a8b11079e86>:0 
+   --- End of inner exception stack trace ---
+  at  
+
+    
+   
+  
+
+. 
+
+  
+ 
+ 
+
+  
+
+
+ (System.String  , System.String  
+, System.String   ) [0x00000] in <53150db001e24456845a8a8b11079e86>:0 
+  at  
+
+    
+  
+  
+  . 
+
+    
+
+
+   
+   ( 
+ 
+
+
+
+
+
+ 
+   
+
+  , System.String  
+, System.String   , System.IO.StringWriter  
+
+,  
+
+    
+ 
+    
+   
+ , System.Boolean   
+) [0x001bc] in <53150db001e24456845a8a8b11079e86>:0 
+Check for DeObfuscate: Assembly-CSharp-firstpass.dll
+Find requried fix functions with empty param names, count: 1 (activate with 'Allow to de-obfuscate assembly' options)
+Assembly 'Assembly-CSharp-firstpass.dll' - obfuscated (for deobfuscate - activate 'Allow to de-obfuscate assembly' options)
+StandartDecompiler: begin decompile.. Assembly-CSharp-firstpass.dll   class_name=*
+end compile.. Assembly-CSharp-firstpass.dll
+Code decompile: Assembly-CSharp.dll, class_name=*, type=StandartDecompiller
+ExtractZipFile: error for C:/Users/Matt/Downloads/DevXUnityUnpacker-WIN-LIC_OLDVERSION/DevXUnityUnpacker-WIN-LIC_Data/StreamingAssets\UnityDLL\Unity-4.1.5f1.zip
+System.TypeInitializationException: The type initializer for 'ZipStorer' threw an exception. ---> System.NotSupportedException: Encoding 437 data could not be found. Make sure you have correct international codeset assembly installed and enabled.
+  at System.Text.Encoding.GetEncoding (System.Int32 codepage) [0x0023f] in <ac823e2bb42b41bda67924a45a0173c3>:0 
+  at ZipStorer..cctor () [0x00006] in <53150db001e24456845a8a8b11079e86>:0 
+   --- End of inner exception stack trace ---
+  at  
+
+    
+   
+  
+
+. 
+
+  
+ 
+ 
+
+  
+
+
+ (System.String  , System.String  
+, System.String   ) [0x00000] in <53150db001e24456845a8a8b11079e86>:0 
+  at  
+
+    
+  
+  
+  . 
+
+    
+
+
+   
+   ( 
+ 
+
+
+
+
+
+ 
+   
+
+  , System.String  
+, System.String   , System.IO.StringWriter  
+
+,  
+
+    
+ 
+    
+   
+ , System.Boolean   
+) [0x001bc] in <53150db001e24456845a8a8b11079e86>:0 
+Check for DeObfuscate: Assembly-CSharp.dll
+StandartDecompiler: begin decompile.. Assembly-CSharp.dll   class_name=*
+end compile.. Assembly-CSharp.dll
+Code decompile: Assembly-UnityScript.dll, class_name=*, type=StandartDecompiller
+ExtractZipFile: error for C:/Users/Matt/Downloads/DevXUnityUnpacker-WIN-LIC_OLDVERSION/DevXUnityUnpacker-WIN-LIC_Data/StreamingAssets\UnityDLL\Unity-4.1.5f1.zip
+System.TypeInitializationException: The type initializer for 'ZipStorer' threw an exception. ---> System.NotSupportedException: Encoding 437 data could not be found. Make sure you have correct international codeset assembly installed and enabled.
+  at System.Text.Encoding.GetEncoding (System.Int32 codepage) [0x0023f] in <ac823e2bb42b41bda67924a45a0173c3>:0 
+  at ZipStorer..cctor () [0x00006] in <53150db001e24456845a8a8b11079e86>:0 
+   --- End of inner exception stack trace ---
+  at  
+
+    
+   
+  
+
+. 
+
+  
+ 
+ 
+
+  
+
+
+ (System.String  , System.String  
+, System.String   ) [0x00000] in <53150db001e24456845a8a8b11079e86>:0 
+  at  
+
+    
+  
+  
+  . 
+
+    
+
+
+   
+   ( 
+ 
+
+
+
+
+
+ 
+   
+
+  , System.String  
+, System.String   , System.IO.StringWriter  
+
+,  
+
+    
+ 
+    
+   
+ , System.Boolean   
+) [0x001bc] in <53150db001e24456845a8a8b11079e86>:0 
+Check for DeObfuscate: Assembly-UnityScript
+StandartDecompiler: begin decompile.. Assembly-UnityScript.dll   class_name=*
+end compile.. Assembly-UnityScript.dll
+Make plugins
+Check for DeObfuscate: GPGSUtils.dll
+Check for DeObfuscate: IFacebook.dll
+Make binStreamingAssets
+Write scrip db
+MakeUnityProject - end, dir: Z:\Sonic Runners Decompiling\AssetBundles-devxagain

@@ -1,0 +1,13 @@
+using System;
+
+public enum ChaoAttributeAbility
+{
+	MAX_SPEED_INVINCIBLE,
+	TRIPLE_JUMP,
+	DOUBLE_JUMP,
+	FLYING_TIME,
+	FLYING_INVINCIBLE,
+	RARE_ENEMY_UP,
+	NUM,
+	UNKNOWN = -1
+}

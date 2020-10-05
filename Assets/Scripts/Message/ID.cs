@@ -1,0 +1,24 @@
+using System;
+
+namespace Message
+{
+	public enum ID
+	{
+		SYSTEM = 4096,
+		GAME = 12288,
+		COMMON = 16384,
+		PLAYER = 20480,
+		CHAO = 21760,
+		OBJECT = 24576,
+		ENEMY = 28672,
+		CAMERA = 32768,
+		COLLISION = 36864,
+		PATH = 40960,
+		TERRAIN = 45056,
+		HUD = 49152,
+		SOUND = 53248,
+		MENU = 57344,
+		NET = 61440,
+		SOCIAL = 63488
+	}
+}

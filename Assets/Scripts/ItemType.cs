@@ -1,0 +1,22 @@
+using System;
+
+public enum ItemType
+{
+	INVINCIBLE,
+	BARRIER,
+	MAGNET,
+	TRAMPOLINE,
+	COMBO,
+	LASER,
+	DRILL,
+	ASTEROID,
+	NUM,
+	BEGIN = 0,
+	UNKNOWN = -1,
+	REDSTAR_RING = -2,
+	TIMER_BRONZE = -3,
+	TIMER_SILVER = -4,
+	TIMER_GOLD = -5,
+	PHANTOM_START = 5,
+	PHANTOM_END = 8
+}

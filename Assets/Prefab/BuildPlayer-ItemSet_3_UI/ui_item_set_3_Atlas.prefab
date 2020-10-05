@@ -1,0 +1,591 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790296881769572321}
+  m_IsPrefabParent: 1
+--- !u!4 &1790296881769572351
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790296881769572321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790296881769572321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790296881769572351}
+  - component: {fileID: 1790296881769572382}
+  m_Layer: 0
+  m_Name: "ui_item_set_3_Atlas"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790296881769572382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790296881769572321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 654ffce9416c4dff981ecbec3d16d1db, type: 2}
+  mSprites:
+  - name: "ui_chao_set_deck_tab_1"
+    x: 138
+    y: 717
+    width: 12
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 4
+    paddingBottom: 2
+  - name: "ui_chao_set_deck_tab_2"
+    x: 553
+    y: 846
+    width: 18
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 4
+    paddingBottom: 2
+  - name: "ui_chao_set_deck_tab_3"
+    x: 553
+    y: 816
+    width: 23
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 2
+  - name: "ui_chao_set_deck_tab_4"
+    x: 553
+    y: 876
+    width: 25
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 3
+    paddingTop: 4
+    paddingBottom: 3
+  - name: "ui_chao_set_deck_tab_5"
+    x: 78
+    y: 772
+    width: 23
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 3
+  - name: "ui_cmn_btn_icon_play"
+    x: 354
+    y: 735
+    width: 41
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 17
+    paddingTop: 10
+    paddingBottom: 20
+  - name: "ui_cmn_icon_ring"
+    x: 974
+    y: 856
+    width: 46
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_cmn_img_scroll_bar"
+    x: 0
+    y: 717
+    width: 8
+    height: 16
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_img_triangle"
+    x: 454
+    y: 805
+    width: 32
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 0
+  - name: "ui_cmn_img_window_bg"
+    x: 154
+    y: 727
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_img_window_bg2"
+    x: 78
+    y: 707
+    width: 56
+    height: 36
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 4
+    borderBottom: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_cmn_toggle_check"
+    x: 974
+    y: 816
+    width: 41
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_cmn_toggle_checkbox"
+    x: 974
+    y: 774
+    width: 38
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_itemset_2_boost_icon_0"
+    x: 108
+    y: 747
+    width: 65
+    height: 77
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_itemset_2_boost_icon_1"
+    x: 0
+    y: 737
+    width: 74
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 8
+  - name: "ui_itemset_2_boost_icon_2"
+    x: 177
+    y: 750
+    width: 59
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 6
+    paddingTop: 2
+    paddingBottom: 2
+  - name: "ui_itemset_2_cursor_0"
+    x: 491
+    y: 855
+    width: 58
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_itemset_2_cursor_1"
+    x: 491
+    y: 805
+    width: 58
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_itemset_2_cursor_2"
+    x: 240
+    y: 754
+    width: 58
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 4
+  - name: "ui_itemset_2_dec_0"
+    x: 584
+    y: 820
+    width: 170
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 80
+    borderBottom: 1
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_itemset_2_dec_1"
+    x: 108
+    y: 828
+    width: 134
+    height: 73
+    borderLeft: 10
+    borderRight: 122
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: "ui_itemset_2_dec_2"
+    x: 138
+    y: 683
+    width: 30
+    height: 30
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 14
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_itemset_3_bost_0"
+    x: 292
+    y: 905
+    width: 142
+    height: 119
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 4
+    paddingBottom: 5
+  - name: "ui_itemset_3_bost_1"
+    x: 438
+    y: 905
+    width: 142
+    height: 119
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 4
+    paddingBottom: 5
+  - name: "ui_itemset_3_bost_2"
+    x: 730
+    y: 906
+    width: 142
+    height: 118
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_itemset_3_bost_4"
+    x: 584
+    y: 906
+    width: 142
+    height: 118
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_itemset_3_bost_or_0"
+    x: 0
+    y: 905
+    width: 142
+    height: 119
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 4
+    paddingBottom: 5
+  - name: "ui_itemset_3_bost_or_1"
+    x: 146
+    y: 905
+    width: 142
+    height: 119
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 4
+    paddingBottom: 5
+  - name: "ui_itemset_3_bost_or_2"
+    x: 876
+    y: 906
+    width: 142
+    height: 118
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 40
+    borderBottom: 50
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 5
+  - name: "ui_itemset_3_cursor_0"
+    x: 866
+    y: 802
+    width: 104
+    height: 100
+    borderLeft: 39
+    borderRight: 59
+    borderTop: 50
+    borderBottom: 44
+    paddingLeft: 7
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 5
+  - name: "ui_itemset_3_cursor_1"
+    x: 0
+    y: 801
+    width: 104
+    height: 100
+    borderLeft: 39
+    borderRight: 59
+    borderTop: 50
+    borderBottom: 44
+    paddingLeft: 7
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 5
+  - name: "ui_itemset_3_cursor_2"
+    x: 758
+    y: 802
+    width: 104
+    height: 100
+    borderLeft: 39
+    borderRight: 59
+    borderTop: 50
+    borderBottom: 44
+    paddingLeft: 7
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 5
+  - name: "ui_itemset_3_cursor_c"
+    x: 246
+    y: 805
+    width: 94
+    height: 96
+    borderLeft: 39
+    borderRight: 52
+    borderTop: 48
+    borderBottom: 44
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 7
+    paddingBottom: 5
+  - name: "ui_mm_btn_s_0"
+    x: 402
+    y: 778
+    width: 48
+    height: 55
+    borderLeft: 22
+    borderRight: 22
+    borderTop: 18
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_mm_btn_s_1"
+    x: 302
+    y: 730
+    width: 48
+    height: 55
+    borderLeft: 22
+    borderRight: 22
+    borderTop: 18
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_mm_btn_s_2"
+    x: 177
+    y: 691
+    width: 48
+    height: 55
+    borderLeft: 22
+    borderRight: 22
+    borderTop: 18
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_mm_btn_s_4"
+    x: 240
+    y: 695
+    width: 48
+    height: 55
+    borderLeft: 22
+    borderRight: 22
+    borderTop: 18
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: "ui_mm_btn_s_pram_bg"
+    x: 78
+    y: 748
+    width: 24
+    height: 20
+    borderLeft: 9
+    borderRight: 9
+    borderTop: 7
+    borderBottom: 7
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_icon_boostitem"
+    x: 344
+    y: 845
+    width: 75
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_mm_icon_itembag"
+    x: 423
+    y: 837
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ui_shop_img_raidboss"
+    x: 344
+    y: 789
+    width: 54
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 5
+    paddingBottom: 7
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
