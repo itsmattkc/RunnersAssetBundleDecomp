@@ -27,11 +27,14 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572383}
-  - component: {fileID: 1790296881769572440}
+  - 4: {fileID: 1790296881769572383}
+  - 114: {fileID: 1790296881769572440}
   m_Layer: 0
   m_Name: "ui_facebook_Atlas"
   m_TagString:
@@ -48,88 +51,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 1939159802824c2c8bb58b172a75facd, type: 2}
   mSprites:
   - name: "ui_cmn_btn_circle_m_bl_0"
-    x: 0
-    y: 134
-    width: 122
-    height: 122
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_cmn_btn_circle_m_bl_1"
-    x: 123
-    y: 134
-    width: 122
-    height: 122
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_cmn_btn_circle_m_bl_2"
-    x: 0
-    y: 16
-    width: 122
-    height: 117
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 6
-    paddingBottom: 0
-  - name: "ui_cmn_icon_facebook"
-    x: 123
-    y: 83
-    width: 50
-    height: 50
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_cmn_img_window_bg"
-    x: 174
-    y: 117
-    width: 16
-    height: 16
-    borderLeft: 4
-    borderRight: 4
-    borderTop: 4
-    borderBottom: 4
-    paddingLeft: 4
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 4
-  - name: "ui_cmn_spacer"
-    x: 246
-    y: 248
-    width: 8
-    height: 8
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0

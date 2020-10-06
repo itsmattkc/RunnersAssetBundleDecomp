@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_event_20001_Atlas_en"
   m_TagString:
@@ -125,140 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: d59f8443ec994b1cb769c0380e654636, type: 2}
   mSprites:
   - name: "ui_event_collab_logo"
-    x: 0
-    y: 237
-    width: 253
-    height: 127
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 0
-    paddingBottom: 1
-  - name: "ui_event_mission_bar_get"
-    x: 257
-    y: 183
-    width: 89
-    height: 54
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 0
-    paddingTop: 4
-    paddingBottom: 4
-  - name: "ui_event_raidboss_damage_reward_icon_destroy"
-    x: 405
-    y: 224
-    width: 71
-    height: 72
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_raidboss_window_word_coming"
-    x: 0
-    y: 368
-    width: 501
-    height: 68
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 5
-    paddingTop: 12
-    paddingBottom: 10
-  - name: "ui_event_result_word_destroy"
-    x: 350
-    y: 197
-    width: 129
-    height: 23
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 36
-    paddingRight: 35
-    paddingTop: 3
-    paddingBottom: 3
-  - name: "ui_event_roulette_button_ribbon"
-    x: 257
-    y: 241
-    width: 144
-    height: 55
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_event_word_raidboss_attention"
-    x: 0
-    y: 440
-    width: 508
-    height: 72
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 10
-    paddingBottom: 10
-  - name: "ui_event_word_raidboss_attention_spacer"
-    x: 480
-    y: 292
-    width: 4
-    height: 72
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 10
-    paddingBottom: 10
-  - name: "ui_gp_word_boss_raid"
-    x: 350
-    y: 168
-    width: 70
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 183
-    paddingTop: 2
-    paddingBottom: 5
-  - name: "ui_mm_btn_word_play_raid"
-    x: 257
-    y: 300
-    width: 207
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 4
-    paddingRight: 9
-    paddingTop: 2
-    paddingBottom: 4
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -269,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

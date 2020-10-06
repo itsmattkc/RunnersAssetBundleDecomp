@@ -93,9 +93,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572278}
+  - 4: {fileID: 1790296881769572278}
   m_Layer: 0
   m_Name: "CharacterEffectVector"
   m_TagString:
@@ -125,9 +128,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572273}
+  - 4: {fileID: 1790296881769572273}
   m_Layer: 0
   m_Name: "ef_pl_vector_jump01"
   m_TagString:
@@ -154,11 +160,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572266}
-  - component: {fileID: 1790296881769572290}
-  - component: {fileID: 1790296881769572302}
+  - 4: {fileID: 1790296881769572266}
+  - 198: {fileID: 1790296881769572290}
+  - 199: {fileID: 1790296881769572302}
   m_Layer: 0
   m_Name: "bloom01"
   m_TagString:
@@ -200,26 +209,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -229,26 +224,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -352,26 +333,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -381,18 +348,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -421,26 +382,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -461,22 +408,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0.002707581
-          value: 0.001001001
-          inSlope: 4.679055
-          outSlope: 4.679055
-        - time: 1
-          value: 0
-          inSlope: -3.037982
-          outSlope: -3.037982
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -488,26 +425,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -615,26 +538,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -652,26 +561,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -681,26 +576,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -710,26 +591,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -742,26 +609,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -771,26 +624,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -800,26 +639,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -836,26 +661,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -865,26 +676,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -894,26 +691,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -923,26 +706,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -957,26 +726,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -989,26 +744,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1151,7 +892,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bdee14796ad740638891bc78a5eb2fa4, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -1174,11 +915,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572267}
-  - component: {fileID: 1790296881769572291}
-  - component: {fileID: 1790296881769572303}
+  - 4: {fileID: 1790296881769572267}
+  - 198: {fileID: 1790296881769572291}
+  - 199: {fileID: 1790296881769572303}
   m_Layer: 0
   m_Name: "spin01"
   m_TagString:
@@ -1220,26 +964,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1249,26 +979,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1372,26 +1088,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1401,18 +1103,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1441,26 +1137,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1481,22 +1163,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0.002707581
-          value: 0.001001001
-          inSlope: 2.750591
-          outSlope: 2.750591
-        - time: 1
-          value: 0.965966
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -1508,18 +1180,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1627,26 +1293,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -1664,26 +1316,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1693,26 +1331,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1722,26 +1346,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1754,26 +1364,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1783,26 +1379,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1812,26 +1394,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1848,26 +1416,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1877,26 +1431,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1906,26 +1446,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1935,26 +1461,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -1969,26 +1481,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -2001,26 +1499,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2163,7 +1647,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: c35b993572ad4cefa1a583b06090f8a5, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -2186,9 +1670,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572263}
+  - 4: {fileID: 1790296881769572263}
   m_Layer: 0
   m_Name: "ef_pl_vector_boost01"
   m_TagString:
@@ -2216,11 +1703,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572277}
-  - component: {fileID: 1790296881769572297}
-  - component: {fileID: 1790296881769572309}
+  - 4: {fileID: 1790296881769572277}
+  - 198: {fileID: 1790296881769572297}
+  - 199: {fileID: 1790296881769572309}
   m_Layer: 0
   m_Name: "bloomlight01"
   m_TagString:
@@ -2262,26 +1752,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2291,26 +1767,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2414,26 +1876,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2443,18 +1891,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -2483,26 +1925,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2523,22 +1951,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0.002707581
-          value: 0.001001001
-          inSlope: 4.679055
-          outSlope: 4.679055
-        - time: 1
-          value: 0
-          inSlope: -3.037982
-          outSlope: -3.037982
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -2550,26 +1968,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2677,26 +2081,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -2714,26 +2104,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2743,26 +2119,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2772,26 +2134,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2804,26 +2152,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2833,26 +2167,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2862,26 +2182,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2898,26 +2204,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2927,26 +2219,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2956,26 +2234,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2985,26 +2249,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3019,26 +2269,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3051,26 +2287,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3213,7 +2435,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bdee14796ad740638891bc78a5eb2fa4, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -3236,10 +2458,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572270}
-  - component: {fileID: 1790296881769572283}
+  - 4: {fileID: 1790296881769572270}
+  - 96: {fileID: 1790296881769572283}
   m_Layer: 0
   m_Name: "locus01"
   m_TagString:
@@ -3272,7 +2497,7 @@ TrailRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 9cbff102288c4eb68b5154f80b260b74, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -3304,11 +2529,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572265}
-  - component: {fileID: 1790296881769572289}
-  - component: {fileID: 1790296881769572301}
+  - 4: {fileID: 1790296881769572265}
+  - 198: {fileID: 1790296881769572289}
+  - 199: {fileID: 1790296881769572301}
   m_Layer: 0
   m_Name: "plane01"
   m_TagString:
@@ -3350,26 +2578,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3379,26 +2593,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3502,26 +2702,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3531,18 +2717,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -3571,26 +2751,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3611,22 +2777,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0.002707581
-          value: 0.001001001
-          inSlope: 2.750591
-          outSlope: 2.750591
-        - time: 1
-          value: 0.965966
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3638,18 +2794,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3757,26 +2907,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3794,26 +2930,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3823,26 +2945,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3852,26 +2960,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3884,26 +2978,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3913,26 +2993,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3942,26 +3008,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3978,26 +3030,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4007,26 +3045,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4036,26 +3060,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4065,26 +3075,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4099,26 +3095,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -4131,26 +3113,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4293,7 +3261,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 7ef05f975b6649bf934f1ad635e19df5, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -4316,10 +3284,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572272}
-  - component: {fileID: 1790296881769572312}
+  - 4: {fileID: 1790296881769572272}
+  - 114: {fileID: 1790296881769572312}
   m_Layer: 0
   m_Name: "ef_pl_vector_2stepjump01"
   m_TagString:
@@ -4346,11 +3317,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572269}
-  - component: {fileID: 1790296881769572292}
-  - component: {fileID: 1790296881769572304}
+  - 4: {fileID: 1790296881769572269}
+  - 198: {fileID: 1790296881769572292}
+  - 199: {fileID: 1790296881769572304}
   m_Layer: 0
   m_Name: "flash01"
   m_TagString:
@@ -4392,26 +3366,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4421,26 +3381,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4544,26 +3490,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4573,18 +3505,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -4613,26 +3539,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4653,26 +3565,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -4684,26 +3582,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4811,26 +3695,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -4848,26 +3718,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4877,26 +3733,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4906,26 +3748,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4938,26 +3766,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4967,26 +3781,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4996,26 +3796,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5032,26 +3818,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5061,26 +3833,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5090,26 +3848,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5119,26 +3863,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5153,26 +3883,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5185,26 +3901,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5347,7 +4049,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 025cc543a23843cc955919ec59e40fda, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -5370,11 +4072,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572271}
-  - component: {fileID: 1790296881769572293}
-  - component: {fileID: 1790296881769572305}
+  - 4: {fileID: 1790296881769572271}
+  - 198: {fileID: 1790296881769572293}
+  - 199: {fileID: 1790296881769572305}
   m_Layer: 0
   m_Name: "hibana01"
   m_TagString:
@@ -5416,26 +4121,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5445,26 +4136,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5568,26 +4245,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5597,18 +4260,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -5637,26 +4294,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5677,26 +4320,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5708,26 +4337,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5835,26 +4450,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5872,26 +4473,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5901,26 +4488,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5930,26 +4503,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5962,26 +4521,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5991,26 +4536,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6020,26 +4551,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6056,26 +4573,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6085,26 +4588,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6114,26 +4603,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6143,26 +4618,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6177,26 +4638,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6209,26 +4656,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6371,7 +4804,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: d4d1813a714a492bac80532831ededfd, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -6398,8 +4831,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7305c91355e80e54ea055ef8cd14be8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   killTime: 3
   killType: 0
 --- !u!1 &1790296881769572262
@@ -6407,10 +4840,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572281}
-  - component: {fileID: 1790296881769572313}
+  - 4: {fileID: 1790296881769572281}
+  - 114: {fileID: 1790296881769572313}
   m_Layer: 0
   m_Name: "ef_pl_vector_attack01"
   m_TagString:
@@ -6439,11 +4875,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572280}
-  - component: {fileID: 1790296881769572299}
-  - component: {fileID: 1790296881769572311}
+  - 4: {fileID: 1790296881769572280}
+  - 198: {fileID: 1790296881769572299}
+  - 199: {fileID: 1790296881769572311}
   m_Layer: 0
   m_Name: "flash01"
   m_TagString:
@@ -6485,26 +4924,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6514,26 +4939,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6637,26 +5048,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6666,18 +5063,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -6706,26 +5097,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6746,26 +5123,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6777,26 +5140,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6904,26 +5253,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6941,26 +5276,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6970,26 +5291,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6999,26 +5306,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7031,26 +5324,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7060,26 +5339,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7089,26 +5354,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7125,26 +5376,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7154,26 +5391,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7183,26 +5406,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7212,26 +5421,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7246,26 +5441,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -7278,26 +5459,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7440,7 +5607,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: f33a78559a3e4f689f8ac5ba81f0f9a8, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -7463,11 +5630,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572276}
-  - component: {fileID: 1790296881769572296}
-  - component: {fileID: 1790296881769572308}
+  - 4: {fileID: 1790296881769572276}
+  - 198: {fileID: 1790296881769572296}
+  - 199: {fileID: 1790296881769572308}
   m_Layer: 0
   m_Name: "flash02"
   m_TagString:
@@ -7509,26 +5679,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7538,26 +5694,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7661,26 +5803,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7690,18 +5818,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -7730,26 +5852,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7770,26 +5878,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -7801,26 +5895,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7928,26 +6008,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -7965,26 +6031,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7994,26 +6046,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8023,26 +6061,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8055,26 +6079,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8084,26 +6094,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8113,26 +6109,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8149,26 +6131,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8178,26 +6146,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8207,26 +6161,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8236,26 +6176,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8270,26 +6196,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8302,26 +6214,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8464,7 +6362,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: da4092e4431b4eee92d81c79c261bf77, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -8487,11 +6385,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572274}
-  - component: {fileID: 1790296881769572294}
-  - component: {fileID: 1790296881769572306}
+  - 4: {fileID: 1790296881769572274}
+  - 198: {fileID: 1790296881769572294}
+  - 199: {fileID: 1790296881769572306}
   m_Layer: 0
   m_Name: "hibana01"
   m_TagString:
@@ -8533,18 +6434,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8333333
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -8554,26 +6449,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8677,26 +6558,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8706,18 +6573,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -8746,26 +6607,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8786,26 +6633,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8817,26 +6650,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8944,26 +6763,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8981,26 +6786,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9010,26 +6801,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9039,26 +6816,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9071,26 +6834,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9100,26 +6849,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9129,26 +6864,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9165,26 +6886,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9194,26 +6901,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9223,26 +6916,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9252,26 +6931,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9286,26 +6951,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -9318,26 +6969,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9480,7 +7117,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: e6d1d5cce77b447aa586e01a0768066d, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -9503,11 +7140,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572275}
-  - component: {fileID: 1790296881769572295}
-  - component: {fileID: 1790296881769572307}
+  - 4: {fileID: 1790296881769572275}
+  - 198: {fileID: 1790296881769572295}
+  - 199: {fileID: 1790296881769572307}
   m_Layer: 0
   m_Name: "piece01"
   m_TagString:
@@ -9549,18 +7189,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.7499999
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -9570,18 +7204,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -9685,18 +7313,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -9706,18 +7328,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -9746,26 +7362,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9786,30 +7388,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5961539
-          inSlope: -3.938992
-          outSlope: -3.938992
-        - time: 0.2074451
-          value: 0.2012579
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0.1949685
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -9821,18 +7405,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: -1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -9940,18 +7518,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.25
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -9969,26 +7541,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -9998,26 +7556,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10027,26 +7571,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10059,26 +7589,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10088,26 +7604,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10117,26 +7619,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10153,26 +7641,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10182,26 +7656,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10211,26 +7671,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10240,26 +7686,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10274,26 +7706,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -10306,26 +7724,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10468,7 +7872,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 7176964f4a5e4be98a0a1c2ee0d9e6f5, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -10495,8 +7899,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7305c91355e80e54ea055ef8cd14be8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   killTime: 3
   killType: 0
 --- !u!1 &1790296881769572249
@@ -10504,9 +7908,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572268}
+  - 4: {fileID: 1790296881769572268}
   m_Layer: 0
   m_Name: "ef_pl_vector_attack_aura01"
   m_TagString:
@@ -10533,11 +7940,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572279}
-  - component: {fileID: 1790296881769572298}
-  - component: {fileID: 1790296881769572310}
+  - 4: {fileID: 1790296881769572279}
+  - 198: {fileID: 1790296881769572298}
+  - 199: {fileID: 1790296881769572310}
   m_Layer: 0
   m_Name: "bloomlight01"
   m_TagString:
@@ -10579,26 +7989,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10608,26 +8004,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10731,26 +8113,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10760,18 +8128,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -10800,26 +8162,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10840,22 +8188,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0.002707581
-          value: 0.001001001
-          inSlope: 4.679055
-          outSlope: 4.679055
-        - time: 1
-          value: 0
-          inSlope: -3.037982
-          outSlope: -3.037982
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -10867,26 +8205,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -10994,26 +8318,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -11031,26 +8341,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11060,26 +8356,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11089,26 +8371,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11121,26 +8389,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11150,26 +8404,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11179,26 +8419,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11215,26 +8441,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11244,26 +8456,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11273,26 +8471,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11302,26 +8486,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11336,26 +8506,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -11368,26 +8524,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11530,7 +8672,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bdee14796ad740638891bc78a5eb2fa4, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -11553,11 +8695,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572264}
-  - component: {fileID: 1790296881769572288}
-  - component: {fileID: 1790296881769572300}
+  - 4: {fileID: 1790296881769572264}
+  - 198: {fileID: 1790296881769572288}
+  - 199: {fileID: 1790296881769572300}
   m_Layer: 0
   m_Name: "plane01"
   m_TagString:
@@ -11599,26 +8744,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11628,26 +8759,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11751,26 +8868,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11780,18 +8883,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -11820,26 +8917,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -11860,22 +8943,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0.002707581
-          value: 0.001001001
-          inSlope: 2.750591
-          outSlope: 2.750591
-        - time: 1
-          value: 0.965966
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -11887,18 +8960,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12006,26 +9073,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-        - time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -12043,26 +9096,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12072,26 +9111,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12101,26 +9126,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12133,26 +9144,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12162,26 +9159,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12191,26 +9174,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12227,26 +9196,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12256,26 +9211,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12285,26 +9226,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12314,26 +9241,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12348,26 +9261,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -12380,26 +9279,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -12542,7 +9427,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 25804328c1974dec91fe023553486031, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -12566,4 +9451,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

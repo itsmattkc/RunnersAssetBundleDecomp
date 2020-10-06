@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_event_70005_Atlas_de"
   m_TagString:
@@ -125,36 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 1046c7ad86d94720bda2799e7b66282f, type: 2}
   mSprites:
   - name: "ui_event_collab_logo"
-    x: 0
-    y: 158
-    width: 239
-    height: 98
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 8
-    paddingRight: 9
-    paddingTop: 15
-    paddingBottom: 15
-  - name: "ui_event_roulette_button_ribbon"
-    x: 0
-    y: 102
-    width: 138
-    height: 52
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 4
-    paddingRight: 4
-    paddingTop: 2
-    paddingBottom: 2
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -165,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

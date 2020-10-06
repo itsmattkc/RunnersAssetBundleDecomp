@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572308}
-  - component: {fileID: 1790296881769572440}
+  - 4: {fileID: 1790296881769572308}
+  - 114: {fileID: 1790296881769572440}
   m_Layer: 16
   m_Name: "EventResourceStage"
   m_TagString:
@@ -133,10 +136,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572343}
-  - component: {fileID: 1790296881769572425}
+  - 4: {fileID: 1790296881769572343}
+  - 114: {fileID: 1790296881769572425}
   m_Layer: 0
   m_Name: "EventObjectTable"
   m_TagString:
@@ -165,21 +171,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f077c8a74df8544eb81b9546638e331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_dataTabel: {fileID: 4900000, guid: 0665941771624c6587e716eb2545d44b, type: 3}
 --- !u!1 &1790296881769572287
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572346}
-  - component: {fileID: 1790296881769572378}
-  - component: {fileID: 1790296881769572427}
-  - component: {fileID: 1790296881769572439}
-  - component: {fileID: 1790296881769572426}
+  - 4: {fileID: 1790296881769572346}
+  - 135: {fileID: 1790296881769572378}
+  - 114: {fileID: 1790296881769572427}
+  - 114: {fileID: 1790296881769572439}
+  - 114: {fileID: 1790296881769572426}
   m_Layer: 18
   m_Name: "ObjEventCrystal"
   m_TagString: "Crystal"
@@ -219,8 +228,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 573cec6a083c02a49b5bd697274e70d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_stockObjectType: 8
 --- !u!114 &1790296881769572439
 MonoBehaviour:
@@ -231,8 +240,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c163274e043d36747b52ba4cf13a4495, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &1790296881769572426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,8 +251,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67dc5c7bfca86dc46b81d7fd6d7738af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_paramter:
     rangein: 20
     rangeout: 30
@@ -252,13 +261,16 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572320}
-  - component: {fileID: 1790296881769572377}
-  - component: {fileID: 1790296881769572407}
-  - component: {fileID: 1790296881769572438}
-  - component: {fileID: 1790296881769572406}
+  - 4: {fileID: 1790296881769572320}
+  - 135: {fileID: 1790296881769572377}
+  - 114: {fileID: 1790296881769572407}
+  - 114: {fileID: 1790296881769572438}
+  - 114: {fileID: 1790296881769572406}
   m_Layer: 18
   m_Name: "ObjEventCrystal10"
   m_TagString: "Crystal"
@@ -298,8 +310,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b50288d9216b18f4f9b8a0dc8a69b4dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_stockObjectType: 9
 --- !u!114 &1790296881769572438
 MonoBehaviour:
@@ -310,8 +322,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c163274e043d36747b52ba4cf13a4495, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &1790296881769572406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,8 +333,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67dc5c7bfca86dc46b81d7fd6d7738af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_paramter:
     rangein: 20
     rangeout: 30
@@ -331,10 +343,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572356}
-  - component: {fileID: 1790296881769572433}
+  - 4: {fileID: 1790296881769572356}
+  - 114: {fileID: 1790296881769572433}
   m_Layer: 0
   m_Name: "EventSPStageObjectTable"
   m_TagString:
@@ -363,19 +378,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc7a8c5a1b022a74ab34e955ad9515a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_dataTabel: {fileID: 4900000, guid: bc010a59bddc4fcb81cc9230b54d3260, type: 3}
 --- !u!1 &1790296881769572272
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572331}
-  - component: {fileID: 1790296881769572441}
-  - component: {fileID: 1790296881769572415}
+  - 4: {fileID: 1790296881769572331}
+  - 114: {fileID: 1790296881769572441}
+  - 114: {fileID: 1790296881769572415}
   m_Layer: 16
   m_Name: "EventResult_spstage"
   m_TagString: "HUD"
@@ -401,10 +419,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572337}
-  - component: {fileID: 1790296881769572374}
+  - 4: {fileID: 1790296881769572337}
+  - 111: {fileID: 1790296881769572374}
   m_Layer: 16
   m_Name: "EventResult_Anim"
   m_TagString: "HUD"
@@ -432,9 +453,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572336}
+  - 4: {fileID: 1790296881769572336}
   m_Layer: 16
   m_Name: "object_get"
   m_TagString: "HUD"
@@ -461,9 +485,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572348}
+  - 4: {fileID: 1790296881769572348}
   m_Layer: 16
   m_Name: "row_2"
   m_TagString: "HUD"
@@ -492,10 +519,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572341}
-  - component: {fileID: 1790296881769572423}
+  - 4: {fileID: 1790296881769572341}
+  - 114: {fileID: 1790296881769572423}
   m_Layer: 16
   m_Name: "Lbl_total_object"
   m_TagString: "HUD"
@@ -524,8 +554,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 5
   mWidth: 133
@@ -552,11 +582,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572339}
-  - component: {fileID: 1790296881769572421}
-  - component: {fileID: 1790296881769572420}
+  - 4: {fileID: 1790296881769572339}
+  - 114: {fileID: 1790296881769572421}
+  - 114: {fileID: 1790296881769572420}
   m_Layer: 16
   m_Name: "ui_Lbl_word_total_object_get"
   m_TagString: "HUD"
@@ -585,8 +618,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
   mWidth: 200
@@ -617,27 +650,29 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf0693b5ef64cde459f3f19c463260c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_main_text_data:
     text_type: 5
     group_id: "Result"
     cell_id: "ui_Lbl_word_get_total"
   m_tag_text_data:
   - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
+  -   text_type: 0
+  -   group_id:
+  -   cell_id:
 --- !u!1 &1790296881769572268
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572327}
-  - component: {fileID: 1790296881769572414}
+  - 4: {fileID: 1790296881769572327}
+  - 114: {fileID: 1790296881769572414}
   m_Layer: 16
   m_Name: "img_icon_total_object"
   m_TagString:
@@ -666,8 +701,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 42
@@ -685,10 +720,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572338}
-  - component: {fileID: 1790296881769572419}
+  - 4: {fileID: 1790296881769572338}
+  - 114: {fileID: 1790296881769572419}
   m_Layer: 16
   m_Name: "img_line_0"
   m_TagString:
@@ -717,8 +755,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1176471, b: 0.627451, a: 1}
   mPivot: 3
   mWidth: 477
@@ -736,9 +774,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572315}
+  - 4: {fileID: 1790296881769572315}
   m_Layer: 16
   m_Name: "row_1"
   m_TagString: "HUD"
@@ -768,10 +809,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572319}
-  - component: {fileID: 1790296881769572405}
+  - 4: {fileID: 1790296881769572319}
+  - 114: {fileID: 1790296881769572405}
   m_Layer: 16
   m_Name: "Lbl_object"
   m_TagString: "HUD"
@@ -800,8 +844,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 5
   mWidth: 94
@@ -828,11 +872,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572334}
-  - component: {fileID: 1790296881769572418}
-  - component: {fileID: 1790296881769572417}
+  - 4: {fileID: 1790296881769572334}
+  - 114: {fileID: 1790296881769572418}
+  - 114: {fileID: 1790296881769572417}
   m_Layer: 16
   m_Name: "ui_Lbl_word_object_get"
   m_TagString: "HUD"
@@ -861,8 +908,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
   mWidth: 187
@@ -893,27 +940,29 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf0693b5ef64cde459f3f19c463260c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_main_text_data:
     text_type: 5
     group_id: "Result"
     cell_id: "ui_Lbl_word_get"
   m_tag_text_data:
   - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
+  -   text_type: 0
+  -   group_id:
+  -   cell_id:
 --- !u!1 &1790296881769572253
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572312}
-  - component: {fileID: 1790296881769572402}
+  - 4: {fileID: 1790296881769572312}
+  - 114: {fileID: 1790296881769572402}
   m_Layer: 16
   m_Name: "img_icon_object"
   m_TagString:
@@ -942,8 +991,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 42
@@ -961,9 +1010,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572330}
+  - 4: {fileID: 1790296881769572330}
   m_Layer: 0
   m_Name: "bg_set"
   m_TagString:
@@ -990,10 +1042,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572310}
-  - component: {fileID: 1790296881769572401}
+  - 4: {fileID: 1790296881769572310}
+  - 114: {fileID: 1790296881769572401}
   m_Layer: 16
   m_Name: "img_line_0"
   m_TagString:
@@ -1022,8 +1077,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1176471, b: 0.627451, a: 1}
   mPivot: 4
   mWidth: 354
@@ -1041,10 +1096,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572349}
-  - component: {fileID: 1790296881769572428}
+  - 4: {fileID: 1790296881769572349}
+  - 114: {fileID: 1790296881769572428}
   m_Layer: 16
   m_Name: "img_line_1"
   m_TagString:
@@ -1073,8 +1131,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1176471, b: 0.627451, a: 1}
   mPivot: 4
   mWidth: 188
@@ -1092,10 +1150,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572347}
-  - component: {fileID: 1790296881769572375}
+  - 4: {fileID: 1790296881769572347}
+  - 111: {fileID: 1790296881769572375}
   m_Layer: 16
   m_Name: "otomo_bonus_Anim"
   m_TagString:
@@ -1124,10 +1185,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572342}
-  - component: {fileID: 1790296881769572424}
+  - 4: {fileID: 1790296881769572342}
+  - 114: {fileID: 1790296881769572424}
   m_Layer: 16
   m_Name: "img_word_mileage_bonus"
   m_TagString:
@@ -1156,8 +1220,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 5
   mWidth: 508
@@ -1175,10 +1239,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572352}
-  - component: {fileID: 1790296881769572430}
+  - 4: {fileID: 1790296881769572352}
+  - 114: {fileID: 1790296881769572430}
   m_Layer: 16
   m_Name: "Lbl_mileage_bonus_score"
   m_TagString:
@@ -1207,8 +1274,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0.7897999, g: 0.4254434, b: 0.9485294, a: 1}
   mPivot: 3
   mWidth: 145
@@ -1235,10 +1302,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572326}
-  - component: {fileID: 1790296881769572413}
+  - 4: {fileID: 1790296881769572326}
+  - 114: {fileID: 1790296881769572413}
   m_Layer: 16
   m_Name: "img_bonus_eff_1"
   m_TagString:
@@ -1267,8 +1337,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 180
@@ -1286,10 +1356,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572333}
-  - component: {fileID: 1790296881769572416}
+  - 4: {fileID: 1790296881769572333}
+  - 114: {fileID: 1790296881769572416}
   m_Layer: 16
   m_Name: "img_bonus_eff_0"
   m_TagString:
@@ -1318,8 +1391,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 234
@@ -1352,9 +1425,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572313}
+  - 4: {fileID: 1790296881769572313}
   m_Layer: 16
   m_Name: "Event_mission1"
   m_TagString: "HUD"
@@ -1381,9 +1457,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572309}
+  - 4: {fileID: 1790296881769572309}
   m_Layer: 16
   m_Name: "slot1"
   m_TagString: "HUD"
@@ -1408,9 +1487,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572350}
+  - 4: {fileID: 1790296881769572350}
   m_Layer: 16
   m_Name: "next_arrow1"
   m_TagString: "HUD"
@@ -1437,11 +1519,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572357}
-  - component: {fileID: 1790296881769572434}
-  - component: {fileID: 1790296881769572435}
+  - 4: {fileID: 1790296881769572357}
+  - 114: {fileID: 1790296881769572434}
+  - 114: {fileID: 1790296881769572435}
   m_Layer: 16
   m_Name: "ui_Lbl_word_next_mission1"
   m_TagString: "HUD"
@@ -1470,8 +1555,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1176471, b: 0.6235294, a: 1}
   mPivot: 4
   mWidth: 200
@@ -1502,37 +1587,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf0693b5ef64cde459f3f19c463260c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_main_text_data:
     text_type: 5
     group_id: "Result"
     cell_id: "ui_Lbl_word_next_mission"
   m_tag_text_data:
   - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
-  - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
-  - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
+  -   text_type: 0
+  -   group_id:
+  -   cell_id:
 --- !u!1 &1790296881769572265
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572324}
-  - component: {fileID: 1790296881769572411}
+  - 4: {fileID: 1790296881769572324}
+  - 114: {fileID: 1790296881769572411}
   m_Layer: 16
   m_Name: "img_next_arrow1"
   m_TagString: "HUD"
@@ -1561,8 +1638,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 210
@@ -1580,9 +1657,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572359}
+  - 4: {fileID: 1790296881769572359}
   m_Layer: 16
   m_Name: "Event_mission2"
   m_TagString: "HUD"
@@ -1609,9 +1689,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572303}
+  - 4: {fileID: 1790296881769572303}
   m_Layer: 16
   m_Name: "slot2"
   m_TagString: "HUD"
@@ -1636,9 +1719,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572354}
+  - 4: {fileID: 1790296881769572354}
   m_Layer: 16
   m_Name: "next_arrow2"
   m_TagString: "HUD"
@@ -1665,11 +1751,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572322}
-  - component: {fileID: 1790296881769572408}
-  - component: {fileID: 1790296881769572409}
+  - 4: {fileID: 1790296881769572322}
+  - 114: {fileID: 1790296881769572408}
+  - 114: {fileID: 1790296881769572409}
   m_Layer: 16
   m_Name: "ui_Lbl_word_next_mission2"
   m_TagString: "HUD"
@@ -1698,8 +1787,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1176471, b: 0.6235294, a: 1}
   mPivot: 4
   mWidth: 200
@@ -1730,37 +1819,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf0693b5ef64cde459f3f19c463260c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_main_text_data:
     text_type: 5
     group_id: "Result"
     cell_id: "ui_Lbl_word_next_mission"
   m_tag_text_data:
   - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
-  - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
-  - text_data:
-      text_type: 0
-      group_id: 
-      cell_id: 
-    tag: 
+  -   text_type: 0
+  -   group_id:
+  -   cell_id:
 --- !u!1 &1790296881769572294
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572353}
-  - component: {fileID: 1790296881769572431}
+  - 4: {fileID: 1790296881769572353}
+  - 114: {fileID: 1790296881769572431}
   m_Layer: 16
   m_Name: "img_next_arrow2"
   m_TagString: "HUD"
@@ -1789,8 +1870,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 210
@@ -1830,8 +1911,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0fe5379e6311f4fa03b4f27abb1b7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   showInPanelTool: 1
   generateNormals: 0
   widgetsAreStatic: 0
@@ -1867,16 +1948,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b4d90a090e8b9e43abaab8e70658f99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &1790296881769572299
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572358}
+  - 4: {fileID: 1790296881769572358}
   m_Layer: 16
   m_Name: "ui_event_mission_scroll"
   m_TagString: "HUD"
@@ -1902,16 +1986,19 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572306}
-  - component: {fileID: 1790296881769572371}
-  - component: {fileID: 1790296881769572400}
-  - component: {fileID: 1790296881769572399}
-  - component: {fileID: 1790296881769572398}
-  - component: {fileID: 1790296881769572397}
-  - component: {fileID: 1790296881769572396}
-  - component: {fileID: 1790296881769572395}
+  - 4: {fileID: 1790296881769572306}
+  - 65: {fileID: 1790296881769572371}
+  - 114: {fileID: 1790296881769572400}
+  - 114: {fileID: 1790296881769572399}
+  - 114: {fileID: 1790296881769572398}
+  - 114: {fileID: 1790296881769572397}
+  - 114: {fileID: 1790296881769572396}
+  - 114: {fileID: 1790296881769572395}
   m_Layer: 16
   m_Name: "Btn_reward_top"
   m_TagString: "HUD"
@@ -1944,10 +2031,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572340}
-  - component: {fileID: 1790296881769572422}
+  - 4: {fileID: 1790296881769572340}
+  - 114: {fileID: 1790296881769572422}
   m_Layer: 16
   m_Name: "Lbl_itemname"
   m_TagString: "HUD"
@@ -1973,10 +2063,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572323}
-  - component: {fileID: 1790296881769572410}
+  - 4: {fileID: 1790296881769572323}
+  - 114: {fileID: 1790296881769572410}
   m_Layer: 16
   m_Name: "Lbl_itemname_sh"
   m_TagString: "HUD"
@@ -2005,8 +2098,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1176471, b: 0.6235294, a: 1}
   mPivot: 3
   mWidth: 275
@@ -2037,8 +2130,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
   mWidth: 275
@@ -2065,10 +2158,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572361}
-  - component: {fileID: 1790296881769572437}
+  - 4: {fileID: 1790296881769572361}
+  - 114: {fileID: 1790296881769572437}
   m_Layer: 16
   m_Name: "Lbl_word_event_object_total"
   m_TagString: "HUD"
@@ -2097,8 +2193,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
   mWidth: 202
@@ -2125,10 +2221,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572317}
-  - component: {fileID: 1790296881769572403}
+  - 4: {fileID: 1790296881769572317}
+  - 114: {fileID: 1790296881769572403}
   m_Layer: 16
   m_Name: "img_event_object_icon"
   m_TagString: "HUD"
@@ -2157,8 +2256,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 44
@@ -2176,10 +2275,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572360}
-  - component: {fileID: 1790296881769572436}
+  - 4: {fileID: 1790296881769572360}
+  - 114: {fileID: 1790296881769572436}
   m_Layer: 16
   m_Name: "img_item_0"
   m_TagString: "HUD"
@@ -2208,8 +2310,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 128
@@ -2227,10 +2329,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572325}
-  - component: {fileID: 1790296881769572412}
+  - 4: {fileID: 1790296881769572325}
+  - 114: {fileID: 1790296881769572412}
   m_Layer: 16
   m_Name: "Lbl_event_object_total_num"
   m_TagString: "HUD"
@@ -2259,8 +2364,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 5
   mWidth: 150
@@ -2287,10 +2392,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572321}
-  - component: {fileID: 1790296881769572373}
+  - 4: {fileID: 1790296881769572321}
+  - 111: {fileID: 1790296881769572373}
   m_Layer: 16
   m_Name: "get_icon_Anim"
   m_TagString: "HUD"
@@ -2316,10 +2424,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572351}
-  - component: {fileID: 1790296881769572429}
+  - 4: {fileID: 1790296881769572351}
+  - 114: {fileID: 1790296881769572429}
   m_Layer: 16
   m_Name: "img_get_icon"
   m_TagString: "HUD"
@@ -2348,8 +2459,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 90
@@ -2382,10 +2493,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572329}
-  - component: {fileID: 1790296881769572393}
+  - 4: {fileID: 1790296881769572329}
+  - 114: {fileID: 1790296881769572393}
   m_Layer: 16
   m_Name: "texture_chao_0"
   m_TagString: "HUD"
@@ -2414,8 +2528,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mWidth: 88
@@ -2433,10 +2547,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572304}
-  - component: {fileID: 1790296881769572394}
+  - 4: {fileID: 1790296881769572304}
+  - 114: {fileID: 1790296881769572394}
   m_Layer: 16
   m_Name: "texture_chao_1"
   m_TagString: "HUD"
@@ -2465,8 +2582,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a702007d305b0d848bb25e4c33e3a87c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mWidth: 256
@@ -2501,8 +2618,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 590
@@ -2524,8 +2641,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbd3169596c718248936ca7bed3fcd15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tweenTarget: {fileID: 0}
   hover: {r: 1, g: 1, b: 1, a: 1}
   pressed: {r: 1, g: 1, b: 1, a: 1}
@@ -2539,8 +2656,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 915ffcd97860d87499cc78e302e3fbfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tweenTarget: {fileID: 1790296881769572306}
   hover: {x: 0, y: 0, z: 0}
   pressed: {x: 0, y: 0, z: 0}
@@ -2554,8 +2671,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06f5144b5a46dc946a193728df106968, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   target: {fileID: 1790296881769572299}
   functionName: "OnClickRankingScroll"
   trigger: 0
@@ -2569,21 +2686,14 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 659286d05c8f8ad45b917c5976a4fe0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   method: 0
   style: 2
   animationCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-    - time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
   ignoreTimeScale: 1
@@ -2593,7 +2703,7 @@ MonoBehaviour:
   tweenGroup: 21
   onFinished: []
   eventReceiver: {fileID: 0}
-  callWhenFinished: 
+  callWhenFinished:
   from: {r: 0.8745098, g: 0.5019608, b: 0, a: 1}
   to: {r: 0.8156863, g: 0.2509804, b: 0, a: 1}
 --- !u!114 &1790296881769572395
@@ -2605,19 +2715,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 282b22a653c88fe47b586f014a5705f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   draggablePanel: {fileID: 0}
 --- !u!1 &1790296881769572257
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572316}
-  - component: {fileID: 1790296881769572367}
-  - component: {fileID: 1790296881769572362}
+  - 4: {fileID: 1790296881769572316}
+  - 33: {fileID: 1790296881769572367}
+  - 23: {fileID: 1790296881769572362}
   m_Layer: 0
   m_Name: "obj_sp_candy10"
   m_TagString:
@@ -2681,11 +2794,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572332}
-  - component: {fileID: 1790296881769572368}
-  - component: {fileID: 1790296881769572363}
+  - 4: {fileID: 1790296881769572332}
+  - 33: {fileID: 1790296881769572368}
+  - 23: {fileID: 1790296881769572363}
   m_Layer: 0
   m_Name: "obj_sp_candyB"
   m_TagString:
@@ -2749,11 +2865,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572344}
-  - component: {fileID: 1790296881769572370}
-  - component: {fileID: 1790296881769572365}
+  - 4: {fileID: 1790296881769572344}
+  - 33: {fileID: 1790296881769572370}
+  - 23: {fileID: 1790296881769572365}
   m_Layer: 0
   m_Name: "obj_sp_candyC"
   m_TagString:
@@ -2817,11 +2936,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572335}
-  - component: {fileID: 1790296881769572369}
-  - component: {fileID: 1790296881769572364}
+  - 4: {fileID: 1790296881769572335}
+  - 33: {fileID: 1790296881769572369}
+  - 23: {fileID: 1790296881769572364}
   m_Layer: 0
   m_Name: "obj_sp_candyA"
   m_TagString:
@@ -2885,10 +3007,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572355}
-  - component: {fileID: 1790296881769572432}
+  - 4: {fileID: 1790296881769572355}
+  - 114: {fileID: 1790296881769572432}
   m_Layer: 0
   m_Name: "ef_sp6_crystal10_get01"
   m_TagString:
@@ -2916,11 +3041,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572311}
-  - component: {fileID: 1790296881769572383}
-  - component: {fileID: 1790296881769572389}
+  - 4: {fileID: 1790296881769572311}
+  - 198: {fileID: 1790296881769572383}
+  - 199: {fileID: 1790296881769572389}
   m_Layer: 0
   m_Name: "flash01"
   m_TagString:
@@ -2962,18 +3090,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -2983,18 +3105,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8333333
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3098,26 +3214,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3127,18 +3229,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3167,26 +3263,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3207,30 +3289,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.4539997
-          inSlope: 0.7861784
-          outSlope: 0.7861784
-        - time: 0.6944994
-          value: 1
-          inSlope: 0.03472965
-          outSlope: -0.8690218
-        - time: 1
-          value: 0.7345133
-          inSlope: -0.8690218
-          outSlope: -2.051977
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3242,26 +3306,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 0.2987342
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: -1
-          inSlope: -1.428051
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3369,22 +3419,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: -0.5
-          outSlope: -0.5
-        - time: 1
-          value: 0.25
-          inSlope: -0.5
-          outSlope: -0.5
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3402,26 +3442,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3431,26 +3457,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3460,26 +3472,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3492,26 +3490,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3521,26 +3505,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3550,26 +3520,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3586,26 +3542,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3615,26 +3557,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3644,26 +3572,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3673,26 +3587,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3707,26 +3607,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.504065
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -3739,26 +3625,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3901,7 +3773,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: cbfc0e6d4f0240da989d23d0815bff3a, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -3924,11 +3796,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572307}
-  - component: {fileID: 1790296881769572382}
-  - component: {fileID: 1790296881769572388}
+  - 4: {fileID: 1790296881769572307}
+  - 198: {fileID: 1790296881769572382}
+  - 199: {fileID: 1790296881769572388}
   m_Layer: 0
   m_Name: "star01"
   m_TagString:
@@ -3970,18 +3845,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -3991,18 +3860,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4106,18 +3969,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.7777778
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4127,18 +3984,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -4167,22 +4018,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4203,22 +4044,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: -0.3412876
-          outSlope: -0.3412876
-        - time: 1
-          value: 0
-          inSlope: -1.588831
-          outSlope: -1.588831
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -4230,18 +4061,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: -1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4349,22 +4174,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: -1
-          outSlope: -1
-        - time: 1
-          value: 0
-          inSlope: -1
-          outSlope: -1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -4382,26 +4197,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4411,26 +4212,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4440,26 +4227,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4472,26 +4245,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4501,26 +4260,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4530,26 +4275,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4566,26 +4297,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4595,26 +4312,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4624,26 +4327,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4653,26 +4342,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4687,26 +4362,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -4719,18 +4380,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: -1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -4873,7 +4528,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: ff3e3c0c027a4510b0c416cd70d875bc, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -4896,11 +4551,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572305}
-  - component: {fileID: 1790296881769572381}
-  - component: {fileID: 1790296881769572387}
+  - 4: {fileID: 1790296881769572305}
+  - 198: {fileID: 1790296881769572381}
+  - 199: {fileID: 1790296881769572387}
   m_Layer: 0
   m_Name: "flash02"
   m_TagString:
@@ -4942,18 +4600,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -4963,18 +4615,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8333333
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5078,26 +4724,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5107,18 +4739,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5147,26 +4773,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5187,26 +4799,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.1691177
-          inSlope: 0.8308823
-          outSlope: 0.8308823
-        - time: 1
-          value: 1
-          inSlope: 0.8308823
-          outSlope: 0.8308823
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5218,26 +4816,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 0.2987342
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: -1
-          inSlope: -1.428051
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5345,22 +4929,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: -0.5
-          outSlope: -0.5
-        - time: 1
-          value: 0.25
-          inSlope: -0.5
-          outSlope: -0.5
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5378,26 +4952,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5407,26 +4967,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5436,26 +4982,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5468,26 +5000,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5497,26 +5015,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5526,26 +5030,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5562,26 +5052,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5591,26 +5067,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5620,26 +5082,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5649,26 +5097,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5683,26 +5117,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.504065
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -5715,26 +5135,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -5877,7 +5283,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 97caf1dc8f1d4910ac327a3db48fb6e9, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -5904,8 +5310,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7305c91355e80e54ea055ef8cd14be8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   killTime: 3
   killType: 0
 --- !u!1 &1790296881769572259
@@ -5913,10 +5319,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572318}
-  - component: {fileID: 1790296881769572404}
+  - 4: {fileID: 1790296881769572318}
+  - 114: {fileID: 1790296881769572404}
   m_Layer: 0
   m_Name: "ef_sp6_crystal_get01"
   m_TagString:
@@ -5944,11 +5353,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572345}
-  - component: {fileID: 1790296881769572386}
-  - component: {fileID: 1790296881769572392}
+  - 4: {fileID: 1790296881769572345}
+  - 198: {fileID: 1790296881769572386}
+  - 199: {fileID: 1790296881769572392}
   m_Layer: 0
   m_Name: "flash01"
   m_TagString:
@@ -5990,18 +5402,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6011,18 +5417,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8333333
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6126,26 +5526,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6155,18 +5541,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6195,26 +5575,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6235,30 +5601,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.4539997
-          inSlope: 0.7861784
-          outSlope: 0.7861784
-        - time: 0.6944994
-          value: 1
-          inSlope: 0.03472965
-          outSlope: -0.8690218
-        - time: 1
-          value: 0.7345133
-          inSlope: -0.8690218
-          outSlope: -2.051977
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6270,26 +5618,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 0.2987342
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: -1
-          inSlope: -1.428051
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6397,22 +5731,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: -0.5
-          outSlope: -0.5
-        - time: 1
-          value: 0.25
-          inSlope: -0.5
-          outSlope: -0.5
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6430,26 +5754,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6459,26 +5769,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6488,26 +5784,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6520,26 +5802,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6549,26 +5817,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6578,26 +5832,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6614,26 +5854,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6643,26 +5869,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6672,26 +5884,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6701,26 +5899,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6735,26 +5919,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.504065
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -6767,26 +5937,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -6929,7 +6085,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: cbfc0e6d4f0240da989d23d0815bff3a, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -6952,11 +6108,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572314}
-  - component: {fileID: 1790296881769572384}
-  - component: {fileID: 1790296881769572390}
+  - 4: {fileID: 1790296881769572314}
+  - 198: {fileID: 1790296881769572384}
+  - 199: {fileID: 1790296881769572390}
   m_Layer: 0
   m_Name: "star01"
   m_TagString:
@@ -6998,18 +6157,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7019,18 +6172,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7134,18 +6281,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.7777778
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7155,18 +6296,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -7195,22 +6330,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7231,22 +6356,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: -0.3412876
-          outSlope: -0.3412876
-        - time: 1
-          value: 0
-          inSlope: -1.588831
-          outSlope: -1.588831
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -7258,18 +6373,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: -1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7377,22 +6486,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: -1
-          outSlope: -1
-        - time: 1
-          value: 0
-          inSlope: -1
-          outSlope: -1
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -7410,26 +6509,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7439,26 +6524,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7468,26 +6539,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7500,26 +6557,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7529,26 +6572,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7558,26 +6587,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7594,26 +6609,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7623,26 +6624,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7652,26 +6639,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7681,26 +6654,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7715,26 +6674,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -7747,18 +6692,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: -1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
@@ -7901,7 +6840,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: ff3e3c0c027a4510b0c416cd70d875bc, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -7924,11 +6863,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572328}
-  - component: {fileID: 1790296881769572385}
-  - component: {fileID: 1790296881769572391}
+  - 4: {fileID: 1790296881769572328}
+  - 198: {fileID: 1790296881769572385}
+  - 199: {fileID: 1790296881769572391}
   m_Layer: 0
   m_Name: "flash02"
   m_TagString:
@@ -7970,18 +6912,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -7991,18 +6927,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.8333333
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8106,26 +7036,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8135,18 +7051,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8175,26 +7085,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8215,26 +7111,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.1691177
-          inSlope: 0.8308823
-          outSlope: 0.8308823
-        - time: 1
-          value: 1
-          inSlope: 0.8308823
-          outSlope: 0.8308823
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8246,26 +7128,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 0.2987342
-          value: 0.001443028
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: -1
-          inSlope: -1.428051
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8373,22 +7241,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.75
-          inSlope: -0.5
-          outSlope: -0.5
-        - time: 1
-          value: 0.25
-          inSlope: -0.5
-          outSlope: -0.5
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.5
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8406,26 +7264,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8435,26 +7279,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8464,26 +7294,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8496,26 +7312,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8525,26 +7327,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8554,26 +7342,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8590,26 +7364,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8619,26 +7379,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8648,26 +7394,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8677,26 +7409,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8711,26 +7429,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0.504065
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 1
@@ -8743,26 +7447,12 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
@@ -8905,7 +7595,7 @@ ParticleSystemRenderer:
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 97caf1dc8f1d4910ac327a3db48fb6e9, type: 2}
-  m_SubsetIndices: 
+  m_SubsetIndices:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
@@ -8932,8 +7622,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7305c91355e80e54ea055ef8cd14be8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   killTime: 3
   killType: 0
 --- !u!114 &1790296881769572440
@@ -8945,8 +7635,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0fe5379e6311f4fa03b4f27abb1b7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   showInPanelTool: 1
   generateNormals: 0
   widgetsAreStatic: 0
@@ -8979,4 +7669,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

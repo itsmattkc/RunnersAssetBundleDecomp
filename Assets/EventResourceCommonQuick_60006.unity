@@ -93,9 +93,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572248}
+  - 4: {fileID: 1790296881769572248}
   m_Layer: 0
   m_Name: "EventResourceCommon"
   m_TagString:
@@ -122,10 +125,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572250}
-  - component: {fileID: 1790296881769572258}
+  - 4: {fileID: 1790296881769572250}
+  - 114: {fileID: 1790296881769572258}
   m_Layer: 0
   m_Name: "QuickEventDataTable"
   m_TagString:
@@ -154,17 +160,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9719f1229a1921542ac28ee34dca57b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: ebb33280b213458aa72d0e70eb9120c0, type: 3}
 --- !u!1 &1790296881769572247
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "EventResourceAtlas"
   m_TagString:
@@ -190,10 +199,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572249}
-  - component: {fileID: 1790296881769572257}
+  - 4: {fileID: 1790296881769572249}
+  - 114: {fileID: 1790296881769572257}
   m_Layer: 0
   m_Name: "ui_event_60006_Atlas"
   m_TagString:
@@ -222,23 +234,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 5f512dda784f4483bdda031b7c73a7f8, type: 2}
   mSprites:
   - name: "ui_event_ranking_caption_bg"
-    x: 0
-    y: 208
-    width: 243
-    height: 48
-    borderLeft: 28
-    borderRight: 28
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 1
-    paddingTop: 3
-    paddingBottom: 5
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -249,4 +249,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

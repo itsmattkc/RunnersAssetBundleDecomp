@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_gp_word_Atlas_en"
   m_TagString:
@@ -125,166 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: c9cb8e54c6a94a59b2029f03edf9d5e6, type: 2}
   mSprites:
   - name: "ui_gp_bit_bonus_word_bonus"
-    x: 154
-    y: 115
-    width: 84
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 184
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_combo"
-    x: 109
-    y: 202
-    width: 90
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 177
-    paddingRight: 5
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_combo_b"
-    x: 0
-    y: 173
-    width: 175
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 93
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_trick"
-    x: 0
-    y: 231
-    width: 166
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 102
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_trick_0"
-    x: 163
-    y: 86
-    width: 88
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 180
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_trick_1"
-    x: 0
-    y: 202
-    width: 105
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 163
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_trick_2"
-    x: 0
-    y: 115
-    width: 150
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 118
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_trick_3"
-    x: 0
-    y: 144
-    width: 203
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 65
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_bit_bonus_word_trick_4"
-    x: 0
-    y: 86
-    width: 159
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 109
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_gp_word_boss_0"
-    x: 0
-    y: 55
-    width: 164
-    height: 27
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 4
-    paddingRight: 88
-    paddingTop: 2
-    paddingBottom: 3
-  - name: "ui_gp_word_meter"
-    x: 203
-    y: 199
-    width: 44
-    height: 29
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 20
-    paddingTop: 24
-    paddingBottom: 11
-  - name: "ui_gp_word_score"
-    x: 170
-    y: 232
-    width: 73
-    height: 24
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 195
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 4
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -295,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

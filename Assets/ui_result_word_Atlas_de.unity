@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_result_word_Atlas_de"
   m_TagString:
@@ -125,101 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: a7bd42eb217d4686abf2799d0982a0dd, type: 2}
   mSprites:
   - name: "ui_result_word_campaignbonus1"
-    x: 0
-    y: 154
-    width: 472
-    height: 70
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 18
-    paddingRight: 18
-    paddingTop: 8
-    paddingBottom: 14
-  - name: "ui_result_word_chaobonus1"
-    x: 0
-    y: 429
-    width: 499
-    height: 83
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 3
-    paddingTop: 8
-    paddingBottom: 1
-  - name: "ui_result_word_char"
-    x: 0
-    y: 128
-    width: 190
-    height: 22
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 5
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_result_word_mileage"
-    x: 0
-    y: 101
-    width: 184
-    height: 23
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 8
-    paddingRight: 8
-    paddingTop: 3
-    paddingBottom: 3
-  - name: "ui_result_word_nomiss"
-    x: 194
-    y: 127
-    width: 198
-    height: 23
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 3
-    paddingBottom: 3
-  - name: "ui_result_word_playerbonus1"
-    x: 0
-    y: 341
-    width: 446
-    height: 84
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 32
-    paddingRight: 30
-    paddingTop: 6
-    paddingBottom: 2
-  - name: "ui_result_word_special_egg"
-    x: 0
-    y: 228
-    width: 341
-    height: 109
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 1
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -230,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

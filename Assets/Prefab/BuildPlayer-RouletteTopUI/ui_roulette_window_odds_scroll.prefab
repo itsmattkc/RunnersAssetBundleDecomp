@@ -79,11 +79,14 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572742}
-  - component: {fileID: 1790296881769573252}
+  - 4: {fileID: 1790296881769572742}
+  - 114: {fileID: 1790296881769573252}
   m_Layer: 16
   m_Name: "Lbl_window_odds_score"
   m_TagString:
@@ -95,11 +98,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572749}
-  - component: {fileID: 1790296881769573259}
+  - 4: {fileID: 1790296881769572749}
+  - 114: {fileID: 1790296881769573259}
   m_Layer: 16
   m_Name: "img_pla_1"
   m_TagString:
@@ -111,11 +117,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572753}
-  - component: {fileID: 1790296881769573263}
+  - 4: {fileID: 1790296881769572753}
+  - 114: {fileID: 1790296881769573263}
   m_Layer: 16
   m_Name: "Lbl_window_odds"
   m_TagString:
@@ -127,13 +136,16 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572757}
-  - component: {fileID: 1790296881769573116}
-  - component: {fileID: 1790296881769573267}
-  - component: {fileID: 1790296881769573275}
+  - 4: {fileID: 1790296881769572757}
+  - 65: {fileID: 1790296881769573116}
+  - 114: {fileID: 1790296881769573267}
+  - 114: {fileID: 1790296881769573275}
   m_Layer: 16
   m_Name: "ui_roulette_window_odds_scroll"
   m_TagString:
@@ -145,11 +157,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572761}
-  - component: {fileID: 1790296881769573271}
+  - 4: {fileID: 1790296881769572761}
+  - 114: {fileID: 1790296881769573271}
   m_Layer: 16
   m_Name: "img_pla_0"
   m_TagString:
@@ -178,8 +193,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 5
   mWidth: 61
@@ -210,8 +225,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1254902, b: 0.627451, a: 1}
   mPivot: 4
   mWidth: 820
@@ -233,8 +248,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
   mWidth: 37
@@ -265,8 +280,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fb63a97db510f4b8ca8464785b8b88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_prizeName: {fileID: 1790296881769573263}
   m_oddsValue: {fileID: 1790296881769573252}
 --- !u!114 &1790296881769573271
@@ -278,8 +293,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0.1254902, b: 0.627451, a: 1}
   mPivot: 5
   mWidth: 232
@@ -301,8 +316,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0, b: 0, a: 0}
   mPivot: 4
   mWidth: 820

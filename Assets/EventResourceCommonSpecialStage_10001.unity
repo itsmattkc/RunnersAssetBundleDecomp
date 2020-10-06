@@ -93,9 +93,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572250}
+  - 4: {fileID: 1790296881769572250}
   m_Layer: 0
   m_Name: "EventResourceCommon"
   m_TagString:
@@ -123,10 +126,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572249}
-  - component: {fileID: 1790296881769572259}
+  - 4: {fileID: 1790296881769572249}
+  - 114: {fileID: 1790296881769572259}
   m_Layer: 0
   m_Name: "EventCommonDataTable"
   m_TagString:
@@ -155,17 +161,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3744f5cac4d14f438721db8f145014d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: b8e87099afda44b0a71ae300022e662d, type: 3}
 --- !u!1 &1790296881769572247
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572252}
+  - 4: {fileID: 1790296881769572252}
   m_Layer: 0
   m_Name: "EventResourceAtlas"
   m_TagString:
@@ -191,10 +200,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572253}
-  - component: {fileID: 1790296881769572261}
+  - 4: {fileID: 1790296881769572253}
+  - 114: {fileID: 1790296881769572261}
   m_Layer: 0
   m_Name: "ui_event_10001_Atlas"
   m_TagString:
@@ -223,452 +235,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 43f384e7769f4603b8acecaece1f9e83, type: 2}
   mSprites:
   - name: "ui_cmn_img_circle"
-    x: 651
-    y: 718
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_cmn_img_scroll_bar"
-    x: 502
-    y: 825
-    width: 8
-    height: 16
-    borderLeft: 4
-    borderRight: 4
-    borderTop: 4
-    borderBottom: 4
-    paddingLeft: 4
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 4
-  - name: "ui_cmn_spacer"
-    x: 714
-    y: 897
-    width: 8
-    height: 8
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_BgTile_0"
-    x: 735
-    y: 896
-    width: 128
-    height: 128
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_BgTile_1"
-    x: 867
-    y: 896
-    width: 128
-    height: 128
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_WindowDeco_l"
-    x: 957
-    y: 636
-    width: 53
-    height: 256
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 11
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_WindowDeco_r"
-    x: 204
-    y: 585
-    width: 47
-    height: 256
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 17
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_bestchao_board_0"
-    x: 258
-    y: 895
-    width: 254
-    height: 129
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 65
-    paddingRight: 65
-    paddingTop: 63
-    paddingBottom: 64
-  - name: "ui_event_bestchao_board_1"
-    x: 0
-    y: 895
-    width: 254
-    height: 129
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 65
-    paddingRight: 65
-    paddingTop: 63
-    paddingBottom: 64
-  - name: "ui_event_bestchao_window_bg"
-    x: 516
-    y: 909
-    width: 215
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 98
-    borderBottom: 12
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_bg"
-    x: 719
-    y: 718
-    width: 64
-    height: 64
-    borderLeft: 24
-    borderRight: 24
-    borderTop: 24
-    borderBottom: 24
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_mission_bar_small"
-    x: 204
-    y: 845
-    width: 295
-    height: 46
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_object_icon"
-    x: 148
-    y: 639
-    width: 34
-    height: 42
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 5
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_event_ranking_caption_bg"
-    x: 255
-    y: 793
-    width: 243
-    height: 48
-    borderLeft: 28
-    borderRight: 28
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 1
-    paddingTop: 5
-    paddingBottom: 3
-  - name: "ui_event_ranking_world_sonicmedal_red"
-    x: 826
-    y: 777
-    width: 127
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 0
-    paddingTop: 2
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_button_0"
-    x: 100
-    y: 721
-    width: 70
-    height: 45
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 10
-    borderBottom: 32
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 2
-  - name: "ui_event_roulette_bestchao_button_1"
-    x: 100
-    y: 770
-    width: 70
-    height: 45
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 10
-    borderBottom: 32
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 2
-  - name: "ui_event_roulette_bestchao_button_2"
-    x: 0
-    y: 692
-    width: 70
-    height: 43
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 12
-    borderBottom: 28
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_event_roulette_bestchao_button_4"
-    x: 74
-    y: 674
-    width: 70
-    height: 43
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 12
-    borderBottom: 28
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_ranking_bg_0"
-    x: 0
-    y: 640
-    width: 28
-    height: 48
-    borderLeft: 20
-    borderRight: 2
-    borderTop: 20
-    borderBottom: 20
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_bg_5"
-    x: 726
-    y: 897
-    width: 4
-    height: 8
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 4
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_bg_6"
-    x: 174
-    y: 791
-    width: 24
-    height: 24
-    borderLeft: 8
-    borderRight: 8
-    borderTop: 8
-    borderBottom: 8
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_btn_event_0"
-    x: 837
-    y: 697
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_1"
-    x: 787
-    y: 697
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_2"
-    x: 887
-    y: 697
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_3"
-    x: 50
-    y: 739
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_4"
-    x: 0
-    y: 739
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_on"
-    x: 678
-    y: 897
-    width: 32
-    height: 8
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_bg_7"
-    x: 148
-    y: 685
-    width: 50
-    height: 32
-    borderLeft: 24
-    borderRight: 24
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_result_event_mission_nextbg"
-    x: 32
-    y: 641
-    width: 41
-    height: 29
-    borderLeft: 14
-    borderRight: 14
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_event_reword_bestitem_bg"
-    x: 0
-    y: 819
-    width: 200
-    height: 72
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_event_reword_leftwindow_bg"
-    x: 516
-    y: 805
-    width: 158
-    height: 100
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 82
-    borderBottom: 12
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_event_reword_leftwindow_deco_s"
-    x: 502
-    y: 722
-    width: 145
-    height: 79
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_roulette_dec_1"
-    x: 678
-    y: 786
-    width: 144
-    height: 106
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 2
-    paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -678,10 +249,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572251}
-  - component: {fileID: 1790296881769572260}
+  - 4: {fileID: 1790296881769572251}
+  - 114: {fileID: 1790296881769572260}
   m_Layer: 0
   m_Name: "SpecialEventDataTable"
   m_TagString:
@@ -710,8 +284,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9719f1229a1921542ac28ee34dca57b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: bd3caca2ce1946ba9378fe8fd7e2ae7d, type: 3}
 --- !u!196 &1790296881769572258
 NavMeshSettings:
@@ -719,4 +293,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

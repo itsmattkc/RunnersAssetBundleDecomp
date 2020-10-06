@@ -27,11 +27,14 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572323}
-  - component: {fileID: 1790296881769572331}
+  - 4: {fileID: 1790296881769572323}
+  - 114: {fileID: 1790296881769572331}
   m_Layer: 0
   m_Name: "ui_event_10000_Atlas"
   m_TagString:
@@ -48,62 +51,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: b9c700faff744f2abcaff6930de7667f, type: 2}
   mSprites:
   - name: "ui_event_mission_bar_get"
-    x: 146
-    y: 67
-    width: 81
-    height: 54
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 4
-  - name: "ui_event_roulette_button_ribbon"
-    x: 0
-    y: 66
-    width: 142
-    height: 55
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 2
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_event_word_get"
-    x: 0
-    y: 125
-    width: 218
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 11
-    paddingRight: 11
-    paddingTop: 11
-    paddingBottom: 10
-  - name: "ui_mm_btn_word_play_sp"
-    x: 0
-    y: 188
-    width: 219
-    height: 68
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0

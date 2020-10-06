@@ -79,15 +79,18 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572333}
-  - component: {fileID: 1790296881769572366}
-  - component: {fileID: 1790296881769572373}
-  - component: {fileID: 1790296881769572377}
-  - component: {fileID: 1790296881769572380}
-  - component: {fileID: 1790296881769572386}
+  - 4: {fileID: 1790296881769572333}
+  - 65: {fileID: 1790296881769572366}
+  - 114: {fileID: 1790296881769572373}
+  - 114: {fileID: 1790296881769572377}
+  - 114: {fileID: 1790296881769572380}
+  - 114: {fileID: 1790296881769572386}
   m_Layer: 16
   m_Name: "Btn_character"
   m_TagString:
@@ -99,11 +102,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572337}
-  - component: {fileID: 1790296881769572383}
+  - 4: {fileID: 1790296881769572337}
+  - 114: {fileID: 1790296881769572383}
   m_Layer: 16
   m_Name: "img_btn_bg"
   m_TagString:
@@ -115,11 +121,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572340}
-  - component: {fileID: 1790296881769572389}
+  - 4: {fileID: 1790296881769572340}
+  - 114: {fileID: 1790296881769572389}
   m_Layer: 16
   m_Name: "Lbl_word_character_name"
   m_TagString:
@@ -131,11 +140,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572343}
-  - component: {fileID: 1790296881769572393}
+  - 4: {fileID: 1790296881769572343}
+  - 114: {fileID: 1790296881769572393}
   m_Layer: 16
   m_Name: "Lbl_word_character_name_sh"
   m_TagString:
@@ -147,11 +159,14 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572346}
-  - component: {fileID: 1790296881769572391}
+  - 4: {fileID: 1790296881769572346}
+  - 114: {fileID: 1790296881769572391}
   m_Layer: 16
   m_Name: "ui_option_tutorial_scroll"
   m_TagString:
@@ -180,8 +195,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 170f4baa19d177045989eac20bb9f37e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   target: {fileID: 1790296881769572383}
   normalSprite: "ui_cmn_btn_bg_s_bl_0"
   hoverSprite: "ui_cmn_btn_bg_s_bl_1"
@@ -196,8 +211,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 915ffcd97860d87499cc78e302e3fbfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tweenTarget: {fileID: 1790296881769572340}
   hover: {x: 0, y: 0, z: 0}
   pressed: {x: 0, y: -2, z: 0}
@@ -211,10 +226,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06f5144b5a46dc946a193728df106968, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   target: {fileID: 0}
-  functionName: 
+  functionName:
   trigger: 0
   includeChildren: 0
 --- !u!114 &1790296881769572383
@@ -226,8 +241,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45796ada72956174289e6a95ee2818ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 640
@@ -249,8 +264,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 282b22a653c88fe47b586f014a5705f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   draggablePanel: {fileID: 0}
 --- !u!114 &1790296881769572389
 MonoBehaviour:
@@ -261,8 +276,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   mPivot: 4
   mWidth: 340
@@ -293,8 +308,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4ab0ad5a7cd5fe47a140b9dd31c06ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_textLabel: {fileID: 1790296881769572389}
   m_shadowTextLabel: {fileID: 1790296881769572393}
   m_btnObj: {fileID: 1790296881769572297}
@@ -307,8 +322,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb47163e2d23bf41814c67d082e1dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mColor: {r: 0, g: 0, b: 0, a: 0.3764706}
   mPivot: 4
   mWidth: 340

@@ -27,11 +27,14 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572296}
-  - component: {fileID: 1790296881769572306}
+  - 4: {fileID: 1790296881769572296}
+  - 114: {fileID: 1790296881769572306}
   m_Layer: 0
   m_Name: "ui_mm_contents_word_Atlas"
   m_TagString:
@@ -48,218 +51,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: ca3aaff49249437789544fc72953b6f9, type: 2}
   mSprites:
   - name: "ui_itemset_2_word_sale"
-    x: 372
-    y: 283
-    width: 83
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_mm_chao_icon_main"
-    x: 428
-    y: 428
-    width: 80
-    height: 84
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 4
-    paddingBottom: 0
-  - name: "ui_mm_chao_icon_sub"
-    x: 428
-    y: 338
-    width: 78
-    height: 79
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 5
-    paddingBottom: 4
-  - name: "ui_mm_load_word_connect"
-    x: 302
-    y: 418
-    width: 124
-    height: 34
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 62
-    paddingRight: 62
-    paddingTop: 9
-    paddingBottom: 13
-  - name: "ui_mm_load_word_load"
-    x: 126
-    y: 230
-    width: 148
-    height: 34
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 50
-    paddingRight: 50
-    paddingTop: 9
-    paddingBottom: 13
-  - name: "ui_mm_player_genus_0"
-    x: 302
-    y: 453
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_1"
-    x: 0
-    y: 263
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_2"
-    x: 0
-    y: 83
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_3"
-    x: 0
-    y: 203
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_4"
-    x: 0
-    y: 143
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_5"
-    x: 302
-    y: 358
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_ribbon_0"
-    x: 0
-    y: 323
-    width: 301
-    height: 94
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 0
-  - name: "ui_mm_player_ribbon_1"
-    x: 0
-    y: 418
-    width: 301
-    height: 94
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 0
-  - name: "ui_mm_player_species_0"
-    x: 249
-    y: 265
-    width: 122
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_mm_player_species_1"
-    x: 0
-    y: 25
-    width: 122
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_mm_player_species_2"
-    x: 126
-    y: 265
-    width: 122
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0

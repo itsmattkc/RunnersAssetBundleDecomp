@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572253}
-  - component: {fileID: 1790296881769572285}
+  - 4: {fileID: 1790296881769572253}
+  - 114: {fileID: 1790296881769572285}
   m_Layer: 16
   m_Name: "EventResourceStage"
   m_TagString:
@@ -129,10 +132,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572258}
-  - component: {fileID: 1790296881769572279}
+  - 4: {fileID: 1790296881769572258}
+  - 114: {fileID: 1790296881769572279}
   m_Layer: 0
   m_Name: "EventObjectTable"
   m_TagString:
@@ -161,21 +167,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f077c8a74df8544eb81b9546638e331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_dataTabel: {fileID: 4900000, guid: 0f3ba767f20143ab9215b8e17cd48b43, type: 3}
 --- !u!1 &1790296881769572250
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572259}
-  - component: {fileID: 1790296881769572274}
-  - component: {fileID: 1790296881769572281}
-  - component: {fileID: 1790296881769572284}
-  - component: {fileID: 1790296881769572280}
+  - 4: {fileID: 1790296881769572259}
+  - 135: {fileID: 1790296881769572274}
+  - 114: {fileID: 1790296881769572281}
+  - 114: {fileID: 1790296881769572284}
+  - 114: {fileID: 1790296881769572280}
   m_Layer: 18
   m_Name: "ObjEventCrystal"
   m_TagString: "Crystal"
@@ -215,8 +224,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 573cec6a083c02a49b5bd697274e70d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_stockObjectType: 8
 --- !u!114 &1790296881769572284
 MonoBehaviour:
@@ -227,8 +236,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c163274e043d36747b52ba4cf13a4495, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &1790296881769572280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,8 +247,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67dc5c7bfca86dc46b81d7fd6d7738af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_paramter:
     rangein: 20
     rangeout: 30
@@ -248,13 +257,16 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572256}
-  - component: {fileID: 1790296881769572273}
-  - component: {fileID: 1790296881769572278}
-  - component: {fileID: 1790296881769572283}
-  - component: {fileID: 1790296881769572277}
+  - 4: {fileID: 1790296881769572256}
+  - 135: {fileID: 1790296881769572273}
+  - 114: {fileID: 1790296881769572278}
+  - 114: {fileID: 1790296881769572283}
+  - 114: {fileID: 1790296881769572277}
   m_Layer: 18
   m_Name: "ObjEventCrystal10"
   m_TagString: "Crystal"
@@ -294,8 +306,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b50288d9216b18f4f9b8a0dc8a69b4dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_stockObjectType: 9
 --- !u!114 &1790296881769572283
 MonoBehaviour:
@@ -306,8 +318,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c163274e043d36747b52ba4cf13a4495, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &1790296881769572277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,8 +329,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67dc5c7bfca86dc46b81d7fd6d7738af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_paramter:
     rangein: 20
     rangeout: 30
@@ -327,10 +339,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572260}
-  - component: {fileID: 1790296881769572282}
+  - 4: {fileID: 1790296881769572260}
+  - 114: {fileID: 1790296881769572282}
   m_Layer: 0
   m_Name: "EventSPStageObjectTable"
   m_TagString:
@@ -359,19 +374,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc7a8c5a1b022a74ab34e955ad9515a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_dataTabel: {fileID: 4900000, guid: e87626a65ec6482d90467ae25e412e66, type: 3}
 --- !u!1 &1790296881769572252
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572261}
-  - component: {fileID: 1790296881769572270}
-  - component: {fileID: 1790296881769572265}
+  - 4: {fileID: 1790296881769572261}
+  - 33: {fileID: 1790296881769572270}
+  - 23: {fileID: 1790296881769572265}
   m_Layer: 0
   m_Name: "obj_sp_xmaspresentA"
   m_TagString:
@@ -435,11 +453,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572257}
-  - component: {fileID: 1790296881769572269}
-  - component: {fileID: 1790296881769572264}
+  - 4: {fileID: 1790296881769572257}
+  - 33: {fileID: 1790296881769572269}
+  - 23: {fileID: 1790296881769572264}
   m_Layer: 0
   m_Name: "obj_sp_xmaspresentB"
   m_TagString:
@@ -503,11 +524,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572254}
-  - component: {fileID: 1790296881769572267}
-  - component: {fileID: 1790296881769572262}
+  - 4: {fileID: 1790296881769572254}
+  - 33: {fileID: 1790296881769572267}
+  - 23: {fileID: 1790296881769572262}
   m_Layer: 0
   m_Name: "obj_sp_xmaspresentC"
   m_TagString:
@@ -571,11 +595,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572255}
-  - component: {fileID: 1790296881769572268}
-  - component: {fileID: 1790296881769572263}
+  - 4: {fileID: 1790296881769572255}
+  - 33: {fileID: 1790296881769572268}
+  - 23: {fileID: 1790296881769572263}
   m_Layer: 0
   m_Name: "obj_sp_xmaspresent10"
   m_TagString:
@@ -643,8 +670,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0fe5379e6311f4fa03b4f27abb1b7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   showInPanelTool: 1
   generateNormals: 0
   widgetsAreStatic: 0
@@ -677,4 +704,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

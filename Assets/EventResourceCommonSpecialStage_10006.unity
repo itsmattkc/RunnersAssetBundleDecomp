@@ -93,9 +93,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572250}
+  - 4: {fileID: 1790296881769572250}
   m_Layer: 0
   m_Name: "EventResourceCommon"
   m_TagString:
@@ -123,10 +126,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572249}
-  - component: {fileID: 1790296881769572259}
+  - 4: {fileID: 1790296881769572249}
+  - 114: {fileID: 1790296881769572259}
   m_Layer: 0
   m_Name: "EventCommonDataTable"
   m_TagString:
@@ -155,18 +161,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3744f5cac4d14f438721db8f145014d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: 859ed0cefd884b84a278ff6c0cd64a04, type: 3}
 --- !u!1 &1790296881769572246
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572251}
-  - component: {fileID: 1790296881769572260}
+  - 4: {fileID: 1790296881769572251}
+  - 114: {fileID: 1790296881769572260}
   m_Layer: 0
   m_Name: "SpecialEventDataTable"
   m_TagString:
@@ -195,17 +204,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9719f1229a1921542ac28ee34dca57b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: c564df88e9684b5e8ba90be5b4eedee1, type: 3}
 --- !u!1 &1790296881769572247
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572252}
+  - 4: {fileID: 1790296881769572252}
   m_Layer: 0
   m_Name: "EventResourceAtlas"
   m_TagString:
@@ -231,10 +243,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572253}
-  - component: {fileID: 1790296881769572261}
+  - 4: {fileID: 1790296881769572253}
+  - 114: {fileID: 1790296881769572261}
   m_Layer: 0
   m_Name: "ui_event_10006_Atlas"
   m_TagString:
@@ -263,543 +278,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: b1dd8aa79275443380bf5de4878b9f2e, type: 2}
   mSprites:
   - name: "ui_cmn_img_circle"
-    x: 395
-    y: 399
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_cmn_img_scroll_bar"
-    x: 239
-    y: 658
-    width: 8
-    height: 16
-    borderLeft: 4
-    borderRight: 4
-    borderTop: 4
-    borderBottom: 4
-    paddingLeft: 4
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 4
-  - name: "ui_cmn_spacer"
-    x: 185
-    y: 697
-    width: 8
-    height: 8
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_BgTile_0"
-    x: 264
-    y: 658
-    width: 128
-    height: 128
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_BgTile_1"
-    x: 132
-    y: 777
-    width: 128
-    height: 128
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ev_WindowDeco_l"
-    x: 0
-    y: 40
-    width: 127
-    height: 479
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 18
-    paddingBottom: 15
-  - name: "ui_ev_WindowDeco_r"
-    x: 0
-    y: 523
-    width: 128
-    height: 501
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 11
-    paddingBottom: 0
-  - name: "ui_event_bestchao_board_0"
-    x: 131
-    y: 209
-    width: 262
-    height: 151
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 63
-    paddingRight: 59
-    paddingTop: 55
-    paddingBottom: 50
-  - name: "ui_event_bestchao_board_1"
-    x: 131
-    y: 364
-    width: 260
-    height: 155
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 63
-    paddingRight: 61
-    paddingTop: 55
-    paddingBottom: 46
-  - name: "ui_event_bestchao_window_bg"
-    x: 395
-    y: 790
-    width: 215
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 98
-    borderBottom: 12
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_bg"
-    x: 132
-    y: 709
-    width: 64
-    height: 64
-    borderLeft: 24
-    borderRight: 24
-    borderTop: 24
-    borderBottom: 24
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_mission_bar_small"
-    x: 131
-    y: 49
-    width: 295
-    height: 46
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_object_icon"
-    x: 131
-    y: 13
-    width: 44
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 7
-    paddingBottom: 5
-  - name: "ui_event_raidboss_window_boss_bar_0"
-    x: 131
-    y: 99
-    width: 312
-    height: 106
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_ranking_caption_bg"
-    x: 430
-    y: 47
-    width: 243
-    height: 48
-    borderLeft: 28
-    borderRight: 28
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 1
-    paddingTop: 3
-    paddingBottom: 5
-  - name: "ui_event_ranking_world_sonicmedal_red"
-    x: 264
-    y: 790
-    width: 127
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 0
-    paddingTop: 2
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_base"
-    x: 396
-    y: 659
-    width: 116
-    height: 127
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 12
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_event_roulette_bestchao_button_0"
-    x: 516
-    y: 660
-    width: 70
-    height: 46
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_button_1"
-    x: 590
-    y: 660
-    width: 70
-    height: 46
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_button_2"
-    x: 616
-    y: 732
-    width: 70
-    height: 43
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_event_roulette_bestchao_button_3"
-    x: 616
-    y: 779
-    width: 70
-    height: 46
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_button_base"
-    x: 132
-    y: 660
-    width: 49
-    height: 45
-    borderLeft: 14
-    borderRight: 14
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_deco1"
-    x: 356
-    y: 981
-    width: 34
-    height: 43
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_deco2"
-    x: 239
-    y: 678
-    width: 15
-    height: 15
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 1
-  - name: "ui_event_roulette_bestchao_light_1"
-    x: 132
-    y: 909
-    width: 220
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 5
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_roulette_bestchao_light_2"
-    x: 395
-    y: 909
-    width: 220
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 5
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_bg_0"
-    x: 356
-    y: 929
-    width: 28
-    height: 48
-    borderLeft: 20
-    borderRight: 2
-    borderTop: 20
-    borderBottom: 20
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_bg_5"
-    x: 251
-    y: 666
-    width: 4
-    height: 8
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 4
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_bg_6"
-    x: 45
-    y: 12
-    width: 24
-    height: 24
-    borderLeft: 8
-    borderRight: 8
-    borderTop: 8
-    borderBottom: 8
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_ranking_btn_event_0"
-    x: 566
-    y: 710
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_1"
-    x: 516
-    y: 710
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_2"
-    x: 200
-    y: 697
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_3"
-    x: 619
-    y: 948
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_event_4"
-    x: 614
-    y: 829
-    width: 46
-    height: 76
-    borderLeft: 18
-    borderRight: 22
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_ranking_btn_on"
-    x: 356
-    y: 917
-    width: 32
-    height: 8
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_bg_7"
-    x: 185
-    y: 661
-    width: 50
-    height: 32
-    borderLeft: 24
-    borderRight: 24
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_result_event_mission_nextbg"
-    x: 0
-    y: 7
-    width: 41
-    height: 29
-    borderLeft: 14
-    borderRight: 14
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_event_reword_bestitem_bg"
-    x: 442
-    y: 597
-    width: 180
-    height: 58
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 10
-    paddingRight: 10
-    paddingTop: 14
-    paddingBottom: 0
-  - name: "ui_result_event_reword_leftwindow_bg"
-    x: 132
-    y: 554
-    width: 158
-    height: 100
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 82
-    borderBottom: 12
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_event_reword_leftwindow_deco_s"
-    x: 395
-    y: 467
-    width: 142
-    height: 77
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 0
-    paddingTop: 3
-    paddingBottom: 0
-  - name: "ui_roulette_dec_1"
-    x: 294
-    y: 548
-    width: 144
-    height: 106
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 2
-    paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -810,4 +293,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

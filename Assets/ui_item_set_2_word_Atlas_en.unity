@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_item_set_2_word_Atlas_en"
   m_TagString:
@@ -125,244 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: e675db2c5b3b4ec1860acbf51b13c7ef, type: 2}
   mSprites:
   - name: "ui_itemset_2_word_free"
-    x: 412
-    y: 419
-    width: 83
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_itemset_2_word_sale"
-    x: 412
-    y: 376
-    width: 83
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_itemset_btn_word_charge"
-    x: 164
-    y: 352
-    width: 115
-    height: 34
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 23
-    paddingBottom: 18
-  - name: "ui_mm_battle_adversary"
-    x: 164
-    y: 390
-    width: 56
-    height: 17
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 9
-    paddingBottom: 6
-  - name: "ui_mm_battle_mine"
-    x: 464
-    y: 326
-    width: 42
-    height: 20
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 8
-    paddingTop: 6
-    paddingBottom: 6
-  - name: "ui_mm_battle_vs"
-    x: 464
-    y: 301
-    width: 35
-    height: 21
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 14
-    paddingRight: 15
-    paddingTop: 1
-    paddingBottom: 2
-  - name: "ui_mm_btn_word_battle"
-    x: 78
-    y: 344
-    width: 58
-    height: 22
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 23
-    paddingRight: 23
-    paddingTop: 6
-    paddingBottom: 4
-  - name: "ui_mm_btn_word_challenge"
-    x: 283
-    y: 361
-    width: 103
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 6
-    paddingBottom: 1
-  - name: "ui_mm_btn_word_chara"
-    x: 390
-    y: 350
-    width: 103
-    height: 22
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 6
-    paddingBottom: 4
-  - name: "ui_mm_btn_word_deck"
-    x: 140
-    y: 327
-    width: 53
-    height: 21
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 25
-    paddingRight: 26
-    paddingTop: 7
-    paddingBottom: 4
-  - name: "ui_mm_btn_word_mapboss"
-    x: 0
-    y: 370
-    width: 160
-    height: 37
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 67
-    paddingBottom: 0
-  - name: "ui_mm_btn_word_mileage"
-    x: 374
-    y: 321
-    width: 86
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 9
-    paddingRight: 9
-    paddingTop: 6
-    paddingBottom: 1
-  - name: "ui_mm_btn_word_mission"
-    x: 0
-    y: 344
-    width: 74
-    height: 22
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 15
-    paddingRight: 15
-    paddingTop: 6
-    paddingBottom: 4
-  - name: "ui_mm_btn_word_play"
-    x: 228
-    y: 390
-    width: 180
-    height: 68
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 20
-    paddingRight: 20
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_mm_btn_word_play_boss"
-    x: 0
-    y: 411
-    width: 214
-    height: 43
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 3
-    paddingTop: 15
-    paddingBottom: 12
-  - name: "ui_mm_btn_word_ranking"
-    x: 283
-    y: 332
-    width: 87
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 9
-    paddingRight: 8
-    paddingTop: 6
-    paddingBottom: 1
-  - name: "ui_mm_mode_word_endless"
-    x: 0
-    y: 458
-    width: 224
-    height: 54
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 12
-    paddingRight: 12
-    paddingTop: 9
-    paddingBottom: 1
-  - name: "ui_mm_mode_word_quick"
-    x: 228
-    y: 462
-    width: 243
-    height: 50
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 3
-    paddingTop: 10
-    paddingBottom: 4
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -373,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

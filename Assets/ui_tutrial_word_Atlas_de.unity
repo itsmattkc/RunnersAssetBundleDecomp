@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_tutrial_word_Atlas_de"
   m_TagString:
@@ -125,192 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 22250bd0df4b41f08bd81c911d2f7951, type: 2}
   mSprites:
   - name: "ui_mm_player_genus_0"
-    x: 305
-    y: 247
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_1"
-    x: 0
-    y: 113
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_2"
-    x: 0
-    y: 50
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_3"
-    x: 129
-    y: 50
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_4"
-    x: 129
-    y: 113
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_5"
-    x: 305
-    y: 310
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_genus_6"
-    x: 305
-    y: 373
-    width: 125
-    height: 59
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 2
-  - name: "ui_mm_player_ribbon_0"
-    x: 0
-    y: 240
-    width: 301
-    height: 94
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 0
-  - name: "ui_mm_player_ribbon_1"
-    x: 0
-    y: 338
-    width: 301
-    height: 94
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 0
-  - name: "ui_mm_player_species_0"
-    x: 384
-    y: 115
-    width: 122
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_mm_player_species_1"
-    x: 258
-    y: 54
-    width: 122
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_mm_player_species_2"
-    x: 258
-    y: 115
-    width: 122
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 2
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_tutorial_word_retry"
-    x: 0
-    y: 176
-    width: 399
-    height: 60
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 20
-    paddingBottom: 16
-  - name: "ui_tutorial_word_success"
-    x: 0
-    y: 436
-    width: 399
-    height: 76
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 7
-    paddingBottom: 13
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -321,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

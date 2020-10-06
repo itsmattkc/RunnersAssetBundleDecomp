@@ -93,9 +93,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572249}
+  - 4: {fileID: 1790296881769572249}
   m_Layer: 0
   m_Name: "EventResourceCommon"
   m_TagString:
@@ -123,10 +126,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572250}
-  - component: {fileID: 1790296881769572259}
+  - 4: {fileID: 1790296881769572250}
+  - 114: {fileID: 1790296881769572259}
   m_Layer: 0
   m_Name: "EventCommonDataTable"
   m_TagString:
@@ -155,17 +161,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3744f5cac4d14f438721db8f145014d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: d282af2dadd445cb919e3d4dc370b002, type: 3}
 --- !u!1 &1790296881769572248
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572253}
+  - 4: {fileID: 1790296881769572253}
   m_Layer: 0
   m_Name: "EventResourceAtlas"
   m_TagString:
@@ -191,10 +200,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572251}
-  - component: {fileID: 1790296881769572260}
+  - 4: {fileID: 1790296881769572251}
+  - 114: {fileID: 1790296881769572260}
   m_Layer: 0
   m_Name: "ui_event_40002_Atlas"
   m_TagString:
@@ -223,153 +235,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 77ef7f271e6144188afe543883ebdb12, type: 2}
   mSprites:
   - name: "ui_event_bestchao_board_0"
-    x: 0
-    y: 278
-    width: 264
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 60
-    paddingRight: 60
-    paddingTop: 74
-    paddingBottom: 67
-  - name: "ui_event_bestchao_board_1"
-    x: 0
-    y: 397
-    width: 264
-    height: 115
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 60
-    paddingRight: 60
-    paddingTop: 74
-    paddingBottom: 67
-  - name: "ui_event_bestchao_window_bg"
-    x: 268
-    y: 399
-    width: 215
-    height: 113
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 98
-    borderBottom: 12
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 2
-  - name: "ui_event_ranking_caption_bg"
-    x: 146
-    y: 189
-    width: 203
-    height: 41
-    borderLeft: 28
-    borderRight: 28
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 23
-    paddingRight: 24
-    paddingTop: 3
-    paddingBottom: 12
-  - name: "ui_event_roulette_bestchao_button_0"
-    x: 430
-    y: 313
-    width: 72
-    height: 38
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 10
-    borderBottom: 32
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 9
-  - name: "ui_event_roulette_bestchao_button_1"
-    x: 0
-    y: 157
-    width: 72
-    height: 38
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 10
-    borderBottom: 32
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 9
-  - name: "ui_event_roulette_bestchao_button_2"
-    x: 430
-    y: 355
-    width: 72
-    height: 40
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 12
-    borderBottom: 28
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 7
-  - name: "ui_event_roulette_bestchao_button_4"
-    x: 146
-    y: 236
-    width: 72
-    height: 38
-    borderLeft: 16
-    borderRight: 16
-    borderTop: 12
-    borderBottom: 28
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 9
-  - name: "ui_result_event_reword_bestitem_bg"
-    x: 268
-    y: 234
-    width: 195
-    height: 57
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 2
-    paddingTop: 13
-    paddingBottom: 2
-  - name: "ui_result_event_reword_leftwindow_bg"
-    x: 268
-    y: 295
-    width: 158
-    height: 100
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 82
-    borderBottom: 12
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_result_event_reword_leftwindow_deco_s"
-    x: 0
-    y: 199
-    width: 142
-    height: 75
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 3
-    paddingTop: 0
-    paddingBottom: 5
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -379,10 +249,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572252}
-  - component: {fileID: 1790296881769572261}
+  - 4: {fileID: 1790296881769572252}
+  - 114: {fileID: 1790296881769572261}
   m_Layer: 0
   m_Name: "GachaEventDataTable"
   m_TagString:
@@ -411,8 +284,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9719f1229a1921542ac28ee34dca57b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_xml_data: {fileID: 4900000, guid: 212e196184c14b7dbd4f717748fac53d, type: 3}
 --- !u!196 &1790296881769572258
 NavMeshSettings:
@@ -420,4 +293,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

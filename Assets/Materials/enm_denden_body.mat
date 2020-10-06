@@ -2,34 +2,54 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 3
+  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_ObjectHideFlags: 0
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: "enm_denden_body"
   m_Shader: {fileID: 4800000, guid: 8046076a44f34cdc878d5728cba672c6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 
+  m_ShaderKeywords:
+  m_LightmapFlags:
   m_EnableInstancingVariants: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 3
+    serializedVersion: 2
     m_TexEnvs:
-    - _DifTex:
-        m_Texture: {fileID: 2800000, guid: 7a03a92df5424d10a686a3cdb69bd6c5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EnvTex:
-        m_Texture: {fileID: 2800000, guid: 26e1d2f884c342039a1299cfd399bbd0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DifTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 7a03a92df5424d10a686a3cdb69bd6c5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _InnerZOffset: 0
-    - _OutlineWidth: 0.05
-    - _OutlineZOffset: 2
+      data:
+        first:
+          name: _InnerZOffset
+        second: 0
+      data:
+        first:
+          name: _OutlineWidth
+        second: 0.05
+      data:
+        first:
+          name: _OutlineZOffset
+        second: 2
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DifCol: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DifCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}

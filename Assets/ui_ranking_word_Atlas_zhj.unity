@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_ranking_word_Atlas_zhj"
   m_TagString:
@@ -125,153 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 4bd39c4d343443758729eac392d4e77e, type: 2}
   mSprites:
   - name: "ui_mm_chao_icon_main"
-    x: 367
-    y: 428
-    width: 80
-    height: 84
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 4
-    paddingBottom: 0
-  - name: "ui_mm_chao_icon_sub"
-    x: 392
-    y: 164
-    width: 78
-    height: 79
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 5
-    paddingBottom: 4
-  - name: "ui_mm_mode_word_endless"
-    x: 0
-    y: 246
-    width: 194
-    height: 62
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 27
-    paddingRight: 27
-    paddingTop: 2
-    paddingBottom: 0
-  - name: "ui_mm_mode_word_quick"
-    x: 198
-    y: 247
-    width: 194
-    height: 61
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 27
-    paddingRight: 27
-    paddingTop: 2
-    paddingBottom: 1
-  - name: "ui_mm_ranking_word_down"
-    x: 0
-    y: 414
-    width: 363
-    height: 98
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 74
-    paddingRight: 75
-    paddingTop: 17
-    paddingBottom: 13
-  - name: "ui_mm_ranking_word_stay"
-    x: 321
-    y: 328
-    width: 150
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 183
-    paddingRight: 179
-    paddingTop: 24
-    paddingBottom: 22
-  - name: "ui_mm_ranking_word_up"
-    x: 0
-    y: 312
-    width: 317
-    height: 98
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 83
-    paddingRight: 112
-    paddingTop: 17
-    paddingBottom: 13
-  - name: "ui_mm_ranking_word_up2"
-    x: 396
-    y: 303
-    width: 66
-    height: 21
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 13
-    paddingRight: 1
-    paddingTop: 2
-    paddingBottom: 1
-  - name: "ui_mm_ranking_world_word_congratulations"
-    x: 198
-    y: 161
-    width: 190
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 159
-    paddingRight: 163
-    paddingTop: 12
-    paddingBottom: 11
-  - name: "ui_ranking_btn_word_league"
-    x: 0
-    y: 149
-    width: 150
-    height: 48
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 113
-    paddingRight: 17
-    paddingTop: 31
-    paddingBottom: 33
-  - name: "ui_ranking_word_score"
-    x: 0
-    y: 201
-    width: 190
-    height: 41
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 87
-    paddingTop: 11
-    paddingBottom: 12
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -282,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:

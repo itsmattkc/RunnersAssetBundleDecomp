@@ -27,11 +27,14 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572600}
-  - component: {fileID: 1790296881769572716}
+  - 4: {fileID: 1790296881769572600}
+  - 114: {fileID: 1790296881769572716}
   m_Layer: 0
   m_Name: "ui_event_20000_Atlas"
   m_TagString:
@@ -48,140 +51,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: ee177f9e8fa94fe1b3d67a808055f52f, type: 2}
   mSprites:
   - name: "ui_event_collab_logo"
-    x: 0
-    y: 435
-    width: 1
-    height: 1
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 255
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 127
-  - name: "ui_event_mission_bar_get"
-    x: 418
-    y: 323
-    width: 81
-    height: 54
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 4
-    paddingTop: 4
-    paddingBottom: 4
-  - name: "ui_event_raidboss_damage_reward_icon_destroy"
-    x: 343
-    y: 305
-    width: 71
-    height: 72
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_event_raidboss_window_word_coming"
-    x: 0
-    y: 351
-    width: 339
-    height: 80
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 216
-    paddingTop: 5
-    paddingBottom: 3
-  - name: "ui_event_result_word_destroy"
-    x: 217
-    y: 276
-    width: 157
-    height: 25
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 21
-    paddingRight: 22
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_event_roulette_button_ribbon"
-    x: 343
-    y: 381
-    width: 144
-    height: 55
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_event_word_raidboss_attention"
-    x: 0
-    y: 440
-    width: 508
-    height: 72
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 10
-    paddingBottom: 10
-  - name: "ui_event_word_raidboss_attention_spacer"
-    x: 503
-    y: 364
-    width: 4
-    height: 72
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 10
-    paddingBottom: 10
-  - name: "ui_gp_word_boss_raid"
-    x: 217
-    y: 319
-    width: 50
-    height: 28
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 203
-    paddingTop: 1
-    paddingBottom: 3
-  - name: "ui_mm_btn_word_play_raid"
-    x: 0
-    y: 287
-    width: 213
-    height: 60
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 4
-    paddingTop: 5
-    paddingBottom: 5
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0

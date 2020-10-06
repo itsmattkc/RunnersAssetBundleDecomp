@@ -27,11 +27,14 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572395}
-  - component: {fileID: 1790296881769572452}
+  - 4: {fileID: 1790296881769572395}
+  - 114: {fileID: 1790296881769572452}
   m_Layer: 0
   m_Name: "UCGothic_26_mix_reference"
   m_TagString:
@@ -48,8 +51,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7edff7c402b0012428b7ad173aed4dca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   mMat: {fileID: 2100000, guid: dd442ec931f64005af439c502dcad571, type: 2}
   mUVRect:
     x: 0
@@ -64,15 +67,6 @@ MonoBehaviour:
     mSpriteName: "test_0"
     mSaved:
     - index: 32
-      x: 0
-      y: 0
-      width: 3
-      height: 1
-      offsetX: -1
-      offsetY: 31
-      advance: 8
-      channel: 15
-      kerning: 
   mSpacingX: 0
   mSpacingY: 4
   mAtlas: {fileID: 0}

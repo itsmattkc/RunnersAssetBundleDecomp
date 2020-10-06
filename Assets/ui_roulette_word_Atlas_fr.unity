@@ -93,10 +93,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1790296881769572245}
-  - component: {fileID: 1790296881769572251}
+  - 4: {fileID: 1790296881769572245}
+  - 114: {fileID: 1790296881769572251}
   m_Layer: 0
   m_Name: "ui_roulette_word_Atlas_fr"
   m_TagString:
@@ -125,153 +128,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   material: {fileID: 2100000, guid: 5cf9ac71723c422f892b550bb6156482, type: 2}
   mSprites:
   - name: "ui_itemset_2_word_campaign"
-    x: 141
-    y: 11
-    width: 120
-    height: 40
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 3
-    paddingTop: 1
-    paddingBottom: 0
-  - name: "ui_itemset_2_word_sale"
-    x: 265
-    y: 6
-    width: 83
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: "ui_roulette_word_big"
-    x: 0
-    y: 44
-    width: 137
-    height: 69
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 66
-    paddingRight: 67
-    paddingTop: 0
-    paddingBottom: 1
-  - name: "ui_roulette_word_get"
-    x: 0
-    y: 117
-    width: 310
-    height: 75
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 97
-    paddingRight: 93
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_roulette_word_jackpot"
-    x: 314
-    y: 102
-    width: 123
-    height: 90
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: "ui_roulette_word_jackpot_1"
-    x: 0
-    y: 196
-    width: 449
-    height: 75
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 28
-    paddingRight: 23
-    paddingTop: 4
-    paddingBottom: 3
-  - name: "ui_roulette_word_levelmax"
-    x: 0
-    y: 275
-    width: 488
-    height: 73
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 8
-    paddingRight: 4
-    paddingTop: 6
-    paddingBottom: 3
-  - name: "ui_roulette_word_levelup"
-    x: 0
-    y: 434
-    width: 492
-    height: 78
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_roulette_word_oddsup"
-    x: 291
-    y: 49
-    width: 82
-    height: 49
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 0
-    paddingTop: 9
-    paddingBottom: 3
-  - name: "ui_roulette_word_rankup"
-    x: 0
-    y: 352
-    width: 488
-    height: 78
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 8
-    paddingRight: 4
-    paddingTop: 2
-    paddingBottom: 2
-  - name: "ui_roulette_word_super"
-    x: 141
-    y: 55
-    width: 146
-    height: 58
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 12
-    paddingRight: 12
-    paddingTop: 5
-    paddingBottom: 27
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -282,4 +143,4 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-  m_NavMeshData: 
+  m_NavMeshData:
