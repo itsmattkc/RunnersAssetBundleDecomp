@@ -2,7 +2,7 @@ Shader "Custom/ykStg_dv" {
 Properties {
  _MainTex ("Base (RGB)", 2D) = "" {}
 }
-SubShader { 
+SubShader {
  Pass {
   ColorMaterial AmbientAndDiffuse
   SetTexture [_MainTex] { combine texture * primary double }
