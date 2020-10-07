@@ -4,133 +4,60 @@ Properties {
  _OutlineWidth ("OutLine Width", Float) = 1
  _OutlineZOffset ("OutLine ZOffset", Float) = 0
 }
-SubShader { 
+SubShader {
  Tags { "RenderType"="Opaque" }
  Pass {
   Name "OUTLINE"
   Tags { "LIGHTMODE"="Vertex" "RenderType"="Opaque" }
   Cull Front
-Program "vp" {
-SubProgram "gles " {
-"!!GLES
 
+  CGPROGRAM
+    #pragma vertex vert
+    #pragma fragment frag
 
-#ifdef VERTEX
+    float4 _OutlineColor;
+    float _OutlineWidth;
+    float _OutlineZOffset;
 
-attribute vec4 _glesVertex;
-attribute vec3 _glesNormal;
-uniform highp mat4 glstate_matrix_mvp;
-uniform highp mat4 glstate_matrix_invtrans_modelview0;
-uniform highp mat4 glstate_matrix_projection;
-uniform highp vec4 _OutlineColor;
-uniform highp float _OutlineWidth;
-uniform highp float _OutlineZOffset;
-varying highp vec4 xlv_COLOR;
-void main ()
-{
-  highp vec4 vpos_1;
-  highp vec4 tmpvar_2;
-  tmpvar_2 = (glstate_matrix_mvp * _glesVertex);
-  vpos_1.w = tmpvar_2.w;
-  highp mat3 tmpvar_3;
-  tmpvar_3[0] = glstate_matrix_invtrans_modelview0[0].xyz;
-  tmpvar_3[1] = glstate_matrix_invtrans_modelview0[1].xyz;
-  tmpvar_3[2] = glstate_matrix_invtrans_modelview0[2].xyz;
-  highp mat2 tmpvar_4;
-  tmpvar_4[0] = glstate_matrix_projection[0].xy;
-  tmpvar_4[1] = glstate_matrix_projection[1].xy;
-  vpos_1.xy = (tmpvar_2.xy + ((tmpvar_4 * 
-    (tmpvar_3 * normalize(_glesNormal))
-  .xy) * _OutlineWidth));
-  vpos_1.z = (tmpvar_2.z + (_OutlineZOffset * 0.01));
-  gl_Position = vpos_1;
-  xlv_COLOR = _OutlineColor;
-}
+    struct appdata_t
+    {
+      float4 vertex : POSITION;
+      float3 normal : NORMAL;
+    };
 
+    struct v2f
+    {
+      float4 vertex : POSITION;
+      float4 color : COLOR;
+    };
 
+    v2f vert(appdata_t v)
+    {
+      v2f o;
 
-#endif
-#ifdef FRAGMENT
+      float4 vpos;
 
-uniform highp vec4 _OutlineColor;
-void main ()
-{
-  highp vec4 tmpvar_1;
-  tmpvar_1.w = 1.0;
-  tmpvar_1.xyz = _OutlineColor.xyz;
-  gl_FragData[0] = tmpvar_1;
-}
+      float4 tmp = mul(UNITY_MATRIX_MVP, v.vertex);
 
+      vpos.w = tmp.w;
 
+      float3x3 invtrans_mv_mat = UNITY_MATRIX_IT_MV;
+      float2x2 projection_mat = UNITY_MATRIX_P;
 
-#endif"
-}
-SubProgram "gles3 " {
-"!!GLES3#version 300 es
+      vpos.xy = (tmp.xy + (mul(projection_mat, mul(invtrans_mv_mat, v.normal).xy) * _OutlineWidth));
+      vpos.z = (tmp.z + (_OutlineZOffset * 0.01));
 
+      o.vertex = vpos;
+      o.color = _OutlineColor;
 
-#ifdef VERTEX
+      return o;
+    }
 
-
-in vec4 _glesVertex;
-in vec3 _glesNormal;
-uniform highp mat4 glstate_matrix_mvp;
-uniform highp mat4 glstate_matrix_invtrans_modelview0;
-uniform highp mat4 glstate_matrix_projection;
-uniform highp vec4 _OutlineColor;
-uniform highp float _OutlineWidth;
-uniform highp float _OutlineZOffset;
-out highp vec4 xlv_COLOR;
-void main ()
-{
-  highp vec4 vpos_1;
-  highp vec4 tmpvar_2;
-  tmpvar_2 = (glstate_matrix_mvp * _glesVertex);
-  vpos_1.w = tmpvar_2.w;
-  highp mat3 tmpvar_3;
-  tmpvar_3[0] = glstate_matrix_invtrans_modelview0[0].xyz;
-  tmpvar_3[1] = glstate_matrix_invtrans_modelview0[1].xyz;
-  tmpvar_3[2] = glstate_matrix_invtrans_modelview0[2].xyz;
-  highp mat2 tmpvar_4;
-  tmpvar_4[0] = glstate_matrix_projection[0].xy;
-  tmpvar_4[1] = glstate_matrix_projection[1].xy;
-  vpos_1.xy = (tmpvar_2.xy + ((tmpvar_4 * 
-    (tmpvar_3 * normalize(_glesNormal))
-  .xy) * _OutlineWidth));
-  vpos_1.z = (tmpvar_2.z + (_OutlineZOffset * 0.01));
-  gl_Position = vpos_1;
-  xlv_COLOR = _OutlineColor;
-}
-
-
-
-#endif
-#ifdef FRAGMENT
-
-
-layout(location=0) out mediump vec4 _glesFragData[4];
-uniform highp vec4 _OutlineColor;
-void main ()
-{
-  highp vec4 tmpvar_1;
-  tmpvar_1.w = 1.0;
-  tmpvar_1.xyz = _OutlineColor.xyz;
-  _glesFragData[0] = tmpvar_1;
-}
-
-
-
-#endif"
-}
-}
-Program "fp" {
-SubProgram "gles " {
-"!!GLES"
-}
-SubProgram "gles3 " {
-"!!GLES3"
-}
-}
+    float4 frag(v2f f) : COLOR
+    {
+      return float4(_OutlineColor.xyz, 1.0);
+    }
+  ENDCG
  }
 }
 }

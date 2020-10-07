@@ -4,199 +4,79 @@ Properties {
  _DifTex ("Diffuse(RGB) EnvMask(A)", 2D) = "white" {}
  _EnvTex ("Environ(RGB)", 2D) = "white" {}
 }
-SubShader { 
+SubShader {
  Tags { "QUEUE"="Transparent" "RenderType"="Transparent" }
  Pass {
   Name "ENVMAP"
   Tags { "LIGHTMODE"="Vertex" "QUEUE"="Transparent" "RenderType"="Transparent" }
   Blend SrcAlpha One
-Program "vp" {
-SubProgram "gles " {
-"!!GLES
 
+  CGPROGRAM
+    #pragma vertex vert
+    #pragma fragment frag
 
-#ifdef VERTEX
+    float4 _DifCol;
+    sampler2D _DifTex;
+    sampler2D _EnvTex;
+    float _InnerZOffset;
+    float4 _DifTex_ST;
+    float _RimPower;
+    float4 _RimCol;
 
-attribute vec4 _glesVertex;
-attribute vec4 _glesColor;
-attribute vec3 _glesNormal;
-attribute vec4 _glesMultiTexCoord0;
-uniform highp mat4 glstate_matrix_mvp;
-uniform highp mat4 glstate_matrix_invtrans_modelview0;
-uniform highp vec4 _DifTex_ST;
-varying highp vec4 xlv_COLOR;
-varying highp vec2 xlv_TEXCOORD0;
-varying highp vec2 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec3 tmpvar_1;
-  tmpvar_1 = normalize(_glesNormal);
-  highp vec4 envVec_2;
-  highp vec4 tmpvar_3;
-  highp vec4 tmpvar_4;
-  tmpvar_4.w = 1.0;
-  tmpvar_4.xyz = tmpvar_1;
-  highp vec4 tmpvar_5;
-  tmpvar_5 = (glstate_matrix_invtrans_modelview0 * tmpvar_4);
-  envVec_2.xy = tmpvar_5.xy;
-  tmpvar_3.w = dot (tmpvar_1, normalize(tmpvar_5.xyz));
-  lowp vec3 tmpvar_6;
-  tmpvar_6 = _glesColor.xyz;
-  tmpvar_3.xyz = tmpvar_6;
-  highp mat4 tmpvar_7;
-  tmpvar_7[0].x = 0.5;
-  tmpvar_7[0].y = 0.0;
-  tmpvar_7[0].z = 0.0;
-  tmpvar_7[0].w = 0.0;
-  tmpvar_7[1].x = 0.0;
-  tmpvar_7[1].y = 0.5;
-  tmpvar_7[1].z = 0.0;
-  tmpvar_7[1].w = 0.0;
-  tmpvar_7[2].x = 0.0;
-  tmpvar_7[2].y = 0.0;
-  tmpvar_7[2].z = 1.0;
-  tmpvar_7[2].w = 0.0;
-  tmpvar_7[3].x = 0.5;
-  tmpvar_7[3].y = 0.5;
-  tmpvar_7[3].z = 0.0;
-  tmpvar_7[3].w = 1.0;
-  envVec_2.zw = vec2(0.0, 1.0);
-  gl_Position = (glstate_matrix_mvp * _glesVertex);
-  xlv_COLOR = tmpvar_3;
-  xlv_TEXCOORD0 = ((_glesMultiTexCoord0.xy * _DifTex_ST.xy) + _DifTex_ST.zw);
-  xlv_TEXCOORD1 = (tmpvar_7 * envVec_2).xy;
-}
+    struct appdata_t
+    {
+      float4 vertex : POSITION;
+      fixed4 color : COLOR;
+      float3 normal : NORMAL;
+      float4 texcoord0 : TEXCOORD0;
+    };
 
+    struct v2f
+    {
+      float4 vertex : POSITION;
+      float4 color : COLOR;
+      float2 texcoord0 : TEXCOORD0;
+      float2 texcoord1 : TEXCOORD1;
+    };
 
+    v2f vert(appdata_t v)
+    {
+      v2f o;
 
-#endif
-#ifdef FRAGMENT
+      o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
 
-uniform highp vec4 _DifCol;
-uniform sampler2D _DifTex;
-uniform sampler2D _EnvTex;
-varying highp vec4 xlv_COLOR;
-varying highp vec2 xlv_TEXCOORD0;
-varying highp vec2 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec4 envCol_1;
-  highp vec4 texCol_2;
-  lowp vec4 tmpvar_3;
-  tmpvar_3 = texture2D (_DifTex, xlv_TEXCOORD0);
-  texCol_2 = tmpvar_3;
-  lowp vec4 tmpvar_4;
-  tmpvar_4 = texture2D (_EnvTex, xlv_TEXCOORD1);
-  envCol_1 = tmpvar_4;
-  highp vec4 tmpvar_5;
-  tmpvar_5.xyz = ((xlv_COLOR.xyz * (_DifCol.xyz * texCol_2.xyz)) + ((envCol_1.xyz * texCol_2.w) * xlv_COLOR.w));
-  tmpvar_5.w = (texCol_2.w * envCol_1.w);
-  gl_FragData[0] = tmpvar_5;
-}
+      o.texcoord0 = ((v.texcoord0.xy * _DifTex_ST.xy) + _DifTex_ST.zw);
 
+      float4 tmp = float4(v.normal, 1.0);
+      float4 tmp2 = mul(UNITY_MATRIX_IT_MV, tmp);
 
+      float4 envVec = tmp2;
 
-#endif"
-}
-SubProgram "gles3 " {
-"!!GLES3#version 300 es
+      o.color.w = dot (v.normal, normalize(tmp2.xyz));
+      o.color.xyz = v.color.xyz;
 
+      float4x4 tmpvar_9 = float4x4(
+        float4(0.5, 0.0, 0.0, 0.5),
+        float4(0.0, 0.5, 0.0, 0.5),
+        float4(0.0, 0.0, 1.0, 0.0),
+        float4(0.0, 0.0, 0.0, 1.0)
+      );
 
-#ifdef VERTEX
+      envVec.zw = float2(0.0, 1.0);
 
+      o.texcoord1.xy = mul(tmpvar_9, envVec).xy;
 
-in vec4 _glesVertex;
-in vec4 _glesColor;
-in vec3 _glesNormal;
-in vec4 _glesMultiTexCoord0;
-uniform highp mat4 glstate_matrix_mvp;
-uniform highp mat4 glstate_matrix_invtrans_modelview0;
-uniform highp vec4 _DifTex_ST;
-out highp vec4 xlv_COLOR;
-out highp vec2 xlv_TEXCOORD0;
-out highp vec2 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec3 tmpvar_1;
-  tmpvar_1 = normalize(_glesNormal);
-  highp vec4 envVec_2;
-  highp vec4 tmpvar_3;
-  highp vec4 tmpvar_4;
-  tmpvar_4.w = 1.0;
-  tmpvar_4.xyz = tmpvar_1;
-  highp vec4 tmpvar_5;
-  tmpvar_5 = (glstate_matrix_invtrans_modelview0 * tmpvar_4);
-  envVec_2.xy = tmpvar_5.xy;
-  tmpvar_3.w = dot (tmpvar_1, normalize(tmpvar_5.xyz));
-  lowp vec3 tmpvar_6;
-  tmpvar_6 = _glesColor.xyz;
-  tmpvar_3.xyz = tmpvar_6;
-  highp mat4 tmpvar_7;
-  tmpvar_7[0].x = 0.5;
-  tmpvar_7[0].y = 0.0;
-  tmpvar_7[0].z = 0.0;
-  tmpvar_7[0].w = 0.0;
-  tmpvar_7[1].x = 0.0;
-  tmpvar_7[1].y = 0.5;
-  tmpvar_7[1].z = 0.0;
-  tmpvar_7[1].w = 0.0;
-  tmpvar_7[2].x = 0.0;
-  tmpvar_7[2].y = 0.0;
-  tmpvar_7[2].z = 1.0;
-  tmpvar_7[2].w = 0.0;
-  tmpvar_7[3].x = 0.5;
-  tmpvar_7[3].y = 0.5;
-  tmpvar_7[3].z = 0.0;
-  tmpvar_7[3].w = 1.0;
-  envVec_2.zw = vec2(0.0, 1.0);
-  gl_Position = (glstate_matrix_mvp * _glesVertex);
-  xlv_COLOR = tmpvar_3;
-  xlv_TEXCOORD0 = ((_glesMultiTexCoord0.xy * _DifTex_ST.xy) + _DifTex_ST.zw);
-  xlv_TEXCOORD1 = (tmpvar_7 * envVec_2).xy;
-}
+      return o;
+    }
 
+    float4 frag(v2f f) : COLOR
+    {
+      float4 texCol = tex2D(_DifTex, f.texcoord0);
+      float4 envCol = tex2D(_EnvTex, f.texcoord1);
 
-
-#endif
-#ifdef FRAGMENT
-
-
-layout(location=0) out mediump vec4 _glesFragData[4];
-uniform highp vec4 _DifCol;
-uniform sampler2D _DifTex;
-uniform sampler2D _EnvTex;
-in highp vec4 xlv_COLOR;
-in highp vec2 xlv_TEXCOORD0;
-in highp vec2 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec4 envCol_1;
-  highp vec4 texCol_2;
-  lowp vec4 tmpvar_3;
-  tmpvar_3 = texture (_DifTex, xlv_TEXCOORD0);
-  texCol_2 = tmpvar_3;
-  lowp vec4 tmpvar_4;
-  tmpvar_4 = texture (_EnvTex, xlv_TEXCOORD1);
-  envCol_1 = tmpvar_4;
-  highp vec4 tmpvar_5;
-  tmpvar_5.xyz = ((xlv_COLOR.xyz * (_DifCol.xyz * texCol_2.xyz)) + ((envCol_1.xyz * texCol_2.w) * xlv_COLOR.w));
-  tmpvar_5.w = (texCol_2.w * envCol_1.w);
-  _glesFragData[0] = tmpvar_5;
-}
-
-
-
-#endif"
-}
-}
-Program "fp" {
-SubProgram "gles " {
-"!!GLES"
-}
-SubProgram "gles3 " {
-"!!GLES3"
-}
-}
+      return float4(((f.color.xyz * (_DifCol.xyz * texCol.xyz)) + ((envCol.xyz * texCol.w) * f.color.w)), (texCol.w * envCol.w));
+    }
+  ENDCG
  }
 }
 }

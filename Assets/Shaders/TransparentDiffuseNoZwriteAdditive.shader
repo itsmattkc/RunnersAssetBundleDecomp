@@ -3,7 +3,7 @@ Properties {
  _Color ("Main Color", Color) = (1,1,1,1)
  _MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
 }
-SubShader { 
+SubShader {
  Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
  Pass {
   Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
@@ -11,101 +11,45 @@ SubShader {
   ZWrite Off
   Cull Off
   Blend One One
-Program "vp" {
-SubProgram "gles " {
-"!!GLES
 
+  CGPROGRAM
+    #pragma vertex vert
+    #pragma fragment frag
 
-#ifdef VERTEX
+    float4 _Color;
+    sampler2D _MainTex;
 
-attribute vec4 _glesVertex;
-attribute vec4 _glesColor;
-attribute vec4 _glesMultiTexCoord0;
-uniform highp mat4 glstate_matrix_mvp;
-varying highp vec4 xlv_COLOR;
-varying highp vec3 xlv_TEXCOORD0;
-void main ()
-{
-  gl_Position = (glstate_matrix_mvp * _glesVertex);
-  xlv_COLOR = _glesColor;
-  xlv_TEXCOORD0 = _glesMultiTexCoord0.xyz;
-}
+    struct appdata_t
+    {
+      float4 vertex : POSITION;
+      float4 color : COLOR;
+      float4 texcoord0 : TEXCOORD0;
+    };
 
+    struct v2f
+    {
+      float4 vertex : POSITION;
+      float4 color : COLOR;
+      float3 texcoord0 : TEXCOORD0;
+    };
 
+    v2f vert(appdata_t v)
+    {
+      v2f o;
 
-#endif
-#ifdef FRAGMENT
+      o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+      o.color = v.color;
+      o.texcoord0 = v.texcoord0.xyz;
 
-uniform highp vec4 _Color;
-uniform sampler2D _MainTex;
-varying highp vec4 xlv_COLOR;
-varying highp vec3 xlv_TEXCOORD0;
-void main ()
-{
-  lowp vec4 tmpvar_1;
-  tmpvar_1 = texture2D (_MainTex, xlv_TEXCOORD0.xy);
-  highp vec4 tmpvar_2;
-  tmpvar_2 = ((_Color * xlv_COLOR.w) * tmpvar_1);
-  gl_FragData[0] = tmpvar_2;
-}
+      return o;
+    }
 
-
-
-#endif"
-}
-SubProgram "gles3 " {
-"!!GLES3#version 300 es
-
-
-#ifdef VERTEX
-
-
-in vec4 _glesVertex;
-in vec4 _glesColor;
-in vec4 _glesMultiTexCoord0;
-uniform highp mat4 glstate_matrix_mvp;
-out highp vec4 xlv_COLOR;
-out highp vec3 xlv_TEXCOORD0;
-void main ()
-{
-  gl_Position = (glstate_matrix_mvp * _glesVertex);
-  xlv_COLOR = _glesColor;
-  xlv_TEXCOORD0 = _glesMultiTexCoord0.xyz;
-}
-
-
-
-#endif
-#ifdef FRAGMENT
-
-
-layout(location=0) out mediump vec4 _glesFragData[4];
-uniform highp vec4 _Color;
-uniform sampler2D _MainTex;
-in highp vec4 xlv_COLOR;
-in highp vec3 xlv_TEXCOORD0;
-void main ()
-{
-  lowp vec4 tmpvar_1;
-  tmpvar_1 = texture (_MainTex, xlv_TEXCOORD0.xy);
-  highp vec4 tmpvar_2;
-  tmpvar_2 = ((_Color * xlv_COLOR.w) * tmpvar_1);
-  _glesFragData[0] = tmpvar_2;
-}
-
-
-
-#endif"
-}
-}
-Program "fp" {
-SubProgram "gles " {
-"!!GLES"
-}
-SubProgram "gles3 " {
-"!!GLES3"
-}
-}
+    float4 frag(v2f f) : COLOR
+    {
+      fixed4 texCol = tex2D(_MainTex, f.texcoord0.xy);
+      return (_Color * f.color.w) * texCol;
+    }
+  ENDCG
  }
 }
 Fallback "Transparent/VertexLit"

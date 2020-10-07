@@ -7,270 +7,96 @@ Properties {
  _RimCol ("Rim Color", Color) = (1,1,1,1)
  _RimPower ("Rim Power", Range(0.5,8)) = 3
 }
-SubShader { 
+SubShader {
  Tags { "RenderType"="Opaque" }
  Pass {
   Name "FALLOFF"
   Tags { "LIGHTMODE"="Vertex" "RenderType"="Opaque" }
-Program "vp" {
-SubProgram "gles " {
-"!!GLES
 
+  CGPROGRAM
+    #pragma vertex vert
+    #pragma fragment frag
 
-#ifdef VERTEX
+    float4 _DifCol;
+    sampler2D _DifTex;
+    sampler2D _EnvTex;
+    float _InnerZOffset;
+    float4 _DifTex_ST;
+    float _RimPower;
+    float4 _RimCol;
 
-attribute vec4 _glesVertex;
-attribute vec3 _glesNormal;
-attribute vec4 _glesMultiTexCoord0;
-uniform highp vec3 _WorldSpaceCameraPos;
-uniform highp vec4 unity_LightColor[8];
-uniform highp vec4 unity_LightPosition[8];
-uniform highp mat4 glstate_matrix_mvp;
-uniform highp mat4 glstate_matrix_invtrans_modelview0;
-uniform highp mat4 _Object2World;
-uniform highp vec4 glstate_lightmodel_ambient;
-uniform highp float _InnerZOffset;
-uniform highp vec4 _DifTex_ST;
-uniform highp float _RimPower;
-varying highp vec4 xlv_COLOR;
-varying highp vec2 xlv_TEXCOORD0;
-varying highp vec3 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec3 tmpvar_1;
-  tmpvar_1 = normalize(_glesNormal);
-  highp vec3 litDir_2;
-  highp vec4 envVec_3;
-  highp vec4 tmpvar_4;
-  highp vec4 tmpvar_5;
-  highp vec3 tmpvar_6;
-  highp vec4 tmpvar_7;
-  tmpvar_7 = (glstate_matrix_mvp * _glesVertex);
-  tmpvar_4.xyw = tmpvar_7.xyw;
-  tmpvar_4.z = (tmpvar_7.z + (_InnerZOffset * 0.01));
-  highp vec2 tmpvar_8;
-  tmpvar_8 = ((_glesMultiTexCoord0.xy * _DifTex_ST.xy) + _DifTex_ST.zw);
-  highp vec4 tmpvar_9;
-  tmpvar_9.w = 1.0;
-  tmpvar_9.xyz = tmpvar_1;
-  envVec_3.xy = (glstate_matrix_invtrans_modelview0 * tmpvar_9).xy;
-  envVec_3.zw = vec2(0.0, 1.0);
-  if ((unity_LightPosition[0].w == 0.0)) {
-    litDir_2 = normalize((unity_LightPosition[0] * glstate_matrix_invtrans_modelview0).xyz);
-  } else {
-    litDir_2 = normalize(((unity_LightPosition[0] * glstate_matrix_invtrans_modelview0).xyz - _glesVertex.xyz));
-  };
-  tmpvar_5.w = ((dot (tmpvar_1, 
-    normalize(litDir_2)
-  ) * 0.5) + 0.5);
-  tmpvar_5.xyz = ((tmpvar_5.w * unity_LightColor[0]).xyz + glstate_lightmodel_ambient.xyz);
-  highp mat4 tmpvar_10;
-  tmpvar_10[0].x = 0.5;
-  tmpvar_10[0].y = 0.0;
-  tmpvar_10[0].z = 0.0;
-  tmpvar_10[0].w = 0.0;
-  tmpvar_10[1].x = 0.0;
-  tmpvar_10[1].y = 0.5;
-  tmpvar_10[1].z = 0.0;
-  tmpvar_10[1].w = 0.0;
-  tmpvar_10[2].x = 0.0;
-  tmpvar_10[2].y = 0.0;
-  tmpvar_10[2].z = 1.0;
-  tmpvar_10[2].w = 0.0;
-  tmpvar_10[3].x = 0.5;
-  tmpvar_10[3].y = 0.5;
-  tmpvar_10[3].z = 0.0;
-  tmpvar_10[3].w = 1.0;
-  tmpvar_6.xy = (tmpvar_10 * envVec_3).xy;
-  highp vec4 tmpvar_11;
-  tmpvar_11.w = 0.0;
-  tmpvar_11.xyz = tmpvar_1;
-  tmpvar_6.z = pow ((1.0 - dot (
-    normalize((_WorldSpaceCameraPos - (_Object2World * _glesVertex).xyz))
-  , 
-    (_Object2World * tmpvar_11)
-  .xyz)), _RimPower);
-  gl_Position = tmpvar_4;
-  xlv_COLOR = tmpvar_5;
-  xlv_TEXCOORD0 = tmpvar_8;
-  xlv_TEXCOORD1 = tmpvar_6;
-}
+    struct appdata_t
+    {
+      float4 vertex : POSITION;
+      float3 normal : NORMAL;
+      float4 texcoord0 : TEXCOORD0;
+    };
 
+    struct v2f
+    {
+      float4 vertex : POSITION;
+      float4 color : COLOR;
+      float2 texcoord0 : TEXCOORD0;
+      float3 texcoord1 : TEXCOORD1;
+    };
 
+    v2f vert(appdata_t v)
+    {
+      v2f o;
 
-#endif
-#ifdef FRAGMENT
+      o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+      o.vertex.z += (_InnerZOffset * 0.01);
 
-uniform highp vec4 _DifCol;
-uniform sampler2D _DifTex;
-uniform sampler2D _EnvTex;
-uniform highp vec4 _RimCol;
-varying highp vec4 xlv_COLOR;
-varying highp vec2 xlv_TEXCOORD0;
-varying highp vec3 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec4 envCol_1;
-  highp vec4 texCol_2;
-  lowp vec4 tmpvar_3;
-  tmpvar_3 = texture2D (_DifTex, xlv_TEXCOORD0);
-  texCol_2 = tmpvar_3;
-  lowp vec4 tmpvar_4;
-  tmpvar_4 = texture2D (_EnvTex, xlv_TEXCOORD1.xy);
-  envCol_1 = tmpvar_4;
-  highp vec4 tmpvar_5;
-  tmpvar_5.w = 1.0;
-  tmpvar_5.xyz = (((
-    (xlv_COLOR.xyz * (_DifCol.xyz * texCol_2.xyz))
-   + 
-    ((envCol_1.xyz * texCol_2.w) * xlv_COLOR.w)
-  ) + (
-    (_RimCol.xyz * xlv_TEXCOORD1.z)
-   * 
-    ((_RimCol.w * 2.0) - 1.0)
-  )) * vec3(2.0, 2.0, 2.0));
-  gl_FragData[0] = tmpvar_5;
-}
+      o.texcoord0 = ((v.texcoord0.xy * _DifTex_ST.xy) + _DifTex_ST.zw);
 
+      float4 tmp = float4(v.normal, 1.0);
 
+      float4 envVec = mul(UNITY_MATRIX_IT_MV, tmp);
+      envVec.zw = float2(0.0, 1.0);
 
-#endif"
-}
-SubProgram "gles3 " {
-"!!GLES3#version 300 es
+      float3 litDir;
+      if ((unity_LightPosition[0].w == 0.0)) {
+        litDir = normalize(mul(unity_LightPosition[0], UNITY_MATRIX_IT_MV).xyz);
+      } else {
+        litDir = normalize((mul(unity_LightPosition[0], UNITY_MATRIX_IT_MV).xyz - v.vertex.xyz));
+      };
 
+      o.color.w = ((dot (v.normal,
+        normalize(litDir)
+      ) * 0.5) + 0.5);
+      o.color.xyz = (mul(o.color.w, unity_LightColor[0]) + UNITY_LIGHTMODEL_AMBIENT);
 
-#ifdef VERTEX
+      float4x4 tmpvar_9 = float4x4(
+        float4(0.5, 0.0, 0.0, 0.5),
+        float4(0.0, 0.5, 0.0, 0.5),
+        float4(0.0, 0.0, 1.0, 0.0),
+        float4(0.0, 0.0, 0.0, 1.0)
+      );
 
+      o.texcoord1.xy = mul(tmpvar_9, envVec).xy;
+      o.texcoord1.z = pow ((1.0 - dot (
+    normalize((_WorldSpaceCameraPos - mul(_Object2World, v.vertex).xyz)),
+    mul(_Object2World, float4(v.normal, 0.0)).xyz)), _RimPower);
 
-in vec4 _glesVertex;
-in vec3 _glesNormal;
-in vec4 _glesMultiTexCoord0;
-uniform highp vec3 _WorldSpaceCameraPos;
-uniform highp vec4 unity_LightColor[8];
-uniform highp vec4 unity_LightPosition[8];
-uniform highp mat4 glstate_matrix_mvp;
-uniform highp mat4 glstate_matrix_invtrans_modelview0;
-uniform highp mat4 _Object2World;
-uniform highp vec4 glstate_lightmodel_ambient;
-uniform highp float _InnerZOffset;
-uniform highp vec4 _DifTex_ST;
-uniform highp float _RimPower;
-out highp vec4 xlv_COLOR;
-out highp vec2 xlv_TEXCOORD0;
-out highp vec3 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec3 tmpvar_1;
-  tmpvar_1 = normalize(_glesNormal);
-  highp vec3 litDir_2;
-  highp vec4 envVec_3;
-  highp vec4 tmpvar_4;
-  highp vec4 tmpvar_5;
-  highp vec3 tmpvar_6;
-  highp vec4 tmpvar_7;
-  tmpvar_7 = (glstate_matrix_mvp * _glesVertex);
-  tmpvar_4.xyw = tmpvar_7.xyw;
-  tmpvar_4.z = (tmpvar_7.z + (_InnerZOffset * 0.01));
-  highp vec2 tmpvar_8;
-  tmpvar_8 = ((_glesMultiTexCoord0.xy * _DifTex_ST.xy) + _DifTex_ST.zw);
-  highp vec4 tmpvar_9;
-  tmpvar_9.w = 1.0;
-  tmpvar_9.xyz = tmpvar_1;
-  envVec_3.xy = (glstate_matrix_invtrans_modelview0 * tmpvar_9).xy;
-  envVec_3.zw = vec2(0.0, 1.0);
-  if ((unity_LightPosition[0].w == 0.0)) {
-    litDir_2 = normalize((unity_LightPosition[0] * glstate_matrix_invtrans_modelview0).xyz);
-  } else {
-    litDir_2 = normalize(((unity_LightPosition[0] * glstate_matrix_invtrans_modelview0).xyz - _glesVertex.xyz));
-  };
-  tmpvar_5.w = ((dot (tmpvar_1, 
-    normalize(litDir_2)
-  ) * 0.5) + 0.5);
-  tmpvar_5.xyz = ((tmpvar_5.w * unity_LightColor[0]).xyz + glstate_lightmodel_ambient.xyz);
-  highp mat4 tmpvar_10;
-  tmpvar_10[0].x = 0.5;
-  tmpvar_10[0].y = 0.0;
-  tmpvar_10[0].z = 0.0;
-  tmpvar_10[0].w = 0.0;
-  tmpvar_10[1].x = 0.0;
-  tmpvar_10[1].y = 0.5;
-  tmpvar_10[1].z = 0.0;
-  tmpvar_10[1].w = 0.0;
-  tmpvar_10[2].x = 0.0;
-  tmpvar_10[2].y = 0.0;
-  tmpvar_10[2].z = 1.0;
-  tmpvar_10[2].w = 0.0;
-  tmpvar_10[3].x = 0.5;
-  tmpvar_10[3].y = 0.5;
-  tmpvar_10[3].z = 0.0;
-  tmpvar_10[3].w = 1.0;
-  tmpvar_6.xy = (tmpvar_10 * envVec_3).xy;
-  highp vec4 tmpvar_11;
-  tmpvar_11.w = 0.0;
-  tmpvar_11.xyz = tmpvar_1;
-  tmpvar_6.z = pow ((1.0 - dot (
-    normalize((_WorldSpaceCameraPos - (_Object2World * _glesVertex).xyz))
-  , 
-    (_Object2World * tmpvar_11)
-  .xyz)), _RimPower);
-  gl_Position = tmpvar_4;
-  xlv_COLOR = tmpvar_5;
-  xlv_TEXCOORD0 = tmpvar_8;
-  xlv_TEXCOORD1 = tmpvar_6;
-}
+      return o;
+    }
 
+    float4 frag(v2f f) : COLOR
+    {
+      float4 texCol = tex2D(_DifTex, f.texcoord0);;
+      float4 envCol = tex2D(_EnvTex, f.texcoord1);;
+      float4 tmpvar_5 = float4(((((f.color.xyz * (_DifCol.xyz * texCol.xyz))
+        +
+         ((envCol.xyz * texCol.w) * f.color.w)
+       ) + (
+         (_RimCol.xyz * f.texcoord1.z)
+        *
+         ((_RimCol.w * 2.0) - 1.0)
+       )) * float3(2.0, 2.0, 2.0)), 1.0);
 
-
-#endif
-#ifdef FRAGMENT
-
-
-layout(location=0) out mediump vec4 _glesFragData[4];
-uniform highp vec4 _DifCol;
-uniform sampler2D _DifTex;
-uniform sampler2D _EnvTex;
-uniform highp vec4 _RimCol;
-in highp vec4 xlv_COLOR;
-in highp vec2 xlv_TEXCOORD0;
-in highp vec3 xlv_TEXCOORD1;
-void main ()
-{
-  highp vec4 envCol_1;
-  highp vec4 texCol_2;
-  lowp vec4 tmpvar_3;
-  tmpvar_3 = texture (_DifTex, xlv_TEXCOORD0);
-  texCol_2 = tmpvar_3;
-  lowp vec4 tmpvar_4;
-  tmpvar_4 = texture (_EnvTex, xlv_TEXCOORD1.xy);
-  envCol_1 = tmpvar_4;
-  highp vec4 tmpvar_5;
-  tmpvar_5.w = 1.0;
-  tmpvar_5.xyz = (((
-    (xlv_COLOR.xyz * (_DifCol.xyz * texCol_2.xyz))
-   + 
-    ((envCol_1.xyz * texCol_2.w) * xlv_COLOR.w)
-  ) + (
-    (_RimCol.xyz * xlv_TEXCOORD1.z)
-   * 
-    ((_RimCol.w * 2.0) - 1.0)
-  )) * vec3(2.0, 2.0, 2.0));
-  _glesFragData[0] = tmpvar_5;
-}
-
-
-
-#endif"
-}
-}
-Program "fp" {
-SubProgram "gles " {
-"!!GLES"
-}
-SubProgram "gles3 " {
-"!!GLES3"
-}
-}
+      return tmpvar_5;
+    }
+  ENDCG
  }
 }
 }
