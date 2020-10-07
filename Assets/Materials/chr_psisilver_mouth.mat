@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -15,23 +15,53 @@ Material:
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 3
+    serializedVersion: 2
     m_TexEnvs:
-    - _DifTex:
-        m_Texture: {fileID: 2800000, guid: 3a71e6cad8f2441fa3181180a5c8f1a9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EnvTex:
-        m_Texture: {fileID: 2800000, guid: f1712714fcb94eb5893a7d70462cec0a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DifTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 3a71e6cad8f2441fa3181180a5c8f1a9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EnvTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f1712714fcb94eb5893a7d70462cec0a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _InnerZOffset: 0
-    - _OutlineWidth: 0.04
-    - _OutlineZOffset: 2
-    - _RimPower: 2.0625
+      data:
+        first:
+          name: _InnerZOffset
+        second: 0
+      data:
+        first:
+          name: _OutlineWidth
+        second: 0.04
+      data:
+        first:
+          name: _OutlineZOffset
+        second: 2
+      data:
+        first:
+          name: _RimPower
+        second: 2.0625
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DifCol: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimCol: {r: 0, g: 0.4470588, b: 0.3536621, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DifCol
+        second: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _RimCol
+        second: {r: 0, g: 0.4470588, b: 0.3536621, a: 1}

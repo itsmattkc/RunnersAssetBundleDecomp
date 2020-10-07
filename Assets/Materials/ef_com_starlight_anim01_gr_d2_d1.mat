@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -15,52 +15,178 @@ Material:
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 3
+    serializedVersion: 2
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 26842be64429421f97220c4464a6d3be, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26842be64429421f97220c4464a6d3be, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Bias: 0
-    - _BlinkingTimeOffsScale: 5
-    - _FadeOutDistFar: 10000
-    - _FadeOutDistNear: 10
-    - _InvFade: 0.01
-    - _MMultiplier: 2
-    - _MaxGrowSize: 2.5
-    - _Multiplier: 1
-    - _NoiseAmount: 0
-    - _OutlineWidth: 0.05
-    - _OutlineZOffset: 0
-    - _ReplaySpeed: 4
-    - _Scroll2X: 1
-    - _Scroll2Y: 0
-    - _ScrollX: 1
-    - _ScrollY: 0
-    - _SineAmplX: 0.5
-    - _SineAmplX2: 0.5
-    - _SineAmplY: 0.5
-    - _SineAmplY2: 0.5
-    - _SineFreqX: 10
-    - _SineFreqX2: 10
-    - _SineFreqY: 10
-    - _SineFreqY2: 10
-    - _SizeGrowEndDist: 50
-    - _SizeGrowStartDist: 5
-    - _Strength: 1.25
-    - _TimeOffDuration: 0.5
-    - _TimeOnDuration: 0.5
-    - _ZOffset: -2
+      data:
+        first:
+          name: _Bias
+        second: 0
+      data:
+        first:
+          name: _BlinkingTimeOffsScale
+        second: 5
+      data:
+        first:
+          name: _FadeOutDistFar
+        second: 10000
+      data:
+        first:
+          name: _FadeOutDistNear
+        second: 10
+      data:
+        first:
+          name: _InvFade
+        second: 0.01
+      data:
+        first:
+          name: _MMultiplier
+        second: 2
+      data:
+        first:
+          name: _MaxGrowSize
+        second: 2.5
+      data:
+        first:
+          name: _Multiplier
+        second: 1
+      data:
+        first:
+          name: _NoiseAmount
+        second: 0
+      data:
+        first:
+          name: _OutlineWidth
+        second: 0.05
+      data:
+        first:
+          name: _OutlineZOffset
+        second: 0
+      data:
+        first:
+          name: _ReplaySpeed
+        second: 4
+      data:
+        first:
+          name: _Scroll2X
+        second: 1
+      data:
+        first:
+          name: _Scroll2Y
+        second: 0
+      data:
+        first:
+          name: _ScrollX
+        second: 1
+      data:
+        first:
+          name: _ScrollY
+        second: 0
+      data:
+        first:
+          name: _SineAmplX
+        second: 0.5
+      data:
+        first:
+          name: _SineAmplX2
+        second: 0.5
+      data:
+        first:
+          name: _SineAmplY
+        second: 0.5
+      data:
+        first:
+          name: _SineAmplY2
+        second: 0.5
+      data:
+        first:
+          name: _SineFreqX
+        second: 10
+      data:
+        first:
+          name: _SineFreqX2
+        second: 10
+      data:
+        first:
+          name: _SineFreqY
+        second: 10
+      data:
+        first:
+          name: _SineFreqY2
+        second: 10
+      data:
+        first:
+          name: _SizeGrowEndDist
+        second: 50
+      data:
+        first:
+          name: _SizeGrowStartDist
+        second: 5
+      data:
+        first:
+          name: _Strength
+        second: 1.25
+      data:
+        first:
+          name: _TimeOffDuration
+        second: 0.5
+      data:
+        first:
+          name: _TimeOnDuration
+        second: 0.5
+      data:
+        first:
+          name: _ZOffset
+        second: -2
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DifCol: {r: 1, g: 1, b: 1, a: 1}
-    - _EdOneCol: {r: 1, g: 1, b: 1, a: 1}
-    - _EdZeroCol: {r: 0.04852948, g: 0.6397059, b: 0, a: 1}
-    - _NumTexTiles: {r: 4, g: 4, b: 0, a: 0}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ScrollingSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _StOneCol: {r: 1, g: 1, b: 1, a: 1}
-    - _StZeroCol: {r: 0.6267301, g: 0.9264706, b: 0.7404248, a: 1}
-    - _TeamColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TintColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DifCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EdOneCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EdZeroCol
+        second: {r: 0.04852948, g: 0.6397059, b: 0, a: 1}
+      data:
+        first:
+          name: _NumTexTiles
+        second: {r: 4, g: 4, b: 0, a: 0}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ScrollingSpeed
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _StOneCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _StZeroCol
+        second: {r: 0.6267301, g: 0.9264706, b: 0.7404248, a: 1}
+      data:
+        first:
+          name: _TeamColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 1, g: 1, b: 1, a: 0.5019608}

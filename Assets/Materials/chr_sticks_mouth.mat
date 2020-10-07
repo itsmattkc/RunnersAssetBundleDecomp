@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -15,21 +15,45 @@ Material:
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 3
+    serializedVersion: 2
     m_TexEnvs:
-    - _DifTex:
-        m_Texture: {fileID: 2800000, guid: f5e958ba7c9e4d11a8816f1645610d90, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EnvTex:
-        m_Texture: {fileID: 2800000, guid: f973c03056c64c7192efb8a9a82ee9da, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DifTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f5e958ba7c9e4d11a8816f1645610d90, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EnvTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f973c03056c64c7192efb8a9a82ee9da, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _InnerZOffset: 0
-    - _OutlineWidth: 0.04
-    - _OutlineZOffset: 2
+      data:
+        first:
+          name: _InnerZOffset
+        second: 0
+      data:
+        first:
+          name: _OutlineWidth
+        second: 0.04
+      data:
+        first:
+          name: _OutlineZOffset
+        second: 2
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DifCol: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DifCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}

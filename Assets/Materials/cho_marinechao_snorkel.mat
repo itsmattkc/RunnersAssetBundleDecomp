@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -15,28 +15,82 @@ Material:
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 3
+    serializedVersion: 2
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5522a1e0b4a14df3ade5d296c46aef5f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5522a1e0b4a14df3ade5d296c46aef5f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Focus: -100
-    - _InnerZOffset: 0
-    - _OutlineWidth: 0
-    - _OutlineZOffset: 0
-    - _RimPower: 3
-    - _Shininess: 0.1119058
-    - _ZOffset: 0
+      data:
+        first:
+          name: _Focus
+        second: -100
+      data:
+        first:
+          name: _InnerZOffset
+        second: 0
+      data:
+        first:
+          name: _OutlineWidth
+        second: 0
+      data:
+        first:
+          name: _OutlineZOffset
+        second: 0
+      data:
+        first:
+          name: _RimPower
+        second: 3
+      data:
+        first:
+          name: _Shininess
+        second: 0.1119058
+      data:
+        first:
+          name: _ZOffset
+        second: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DifCol: {r: 1, g: 1, b: 1, a: 1}
-    - _EdOneCol: {r: 1, g: 1, b: 1, a: 1}
-    - _EdZeroCol: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ScrollingSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Specular: {r: 0, g: 0, b: 0, a: 0}
-    - _StOneCol: {r: 1, g: 1, b: 1, a: 1}
-    - _StZeroCol: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DifCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EdOneCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EdZeroCol
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ScrollingSpeed
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _Specular
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _StOneCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _StZeroCol
+        second: {r: 0, g: 0, b: 0, a: 1}
