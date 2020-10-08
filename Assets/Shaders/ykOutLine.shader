@@ -15,6 +15,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     float4 _OutlineColor;
     float _OutlineWidth;
     float _OutlineZOffset;

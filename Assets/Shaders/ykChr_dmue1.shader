@@ -16,6 +16,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     float4 _DifCol;
     sampler2D _DifTex;
     sampler2D _EnvTex;
@@ -64,7 +66,7 @@ SubShader {
       o.color.w = ((dot (v.normal,
         normalize(litDir)
       ) * 0.5) + 0.5);
-      o.color.xyz = (mul(o.color.w, unity_LightColor[0]) + UNITY_LIGHTMODEL_AMBIENT);
+      o.color.xyz = ((o.color.w * unity_LightColor[0]) + UNITY_LIGHTMODEL_AMBIENT).xyz;
 
       float4x4 tmpvar_9 = float4x4(
         float4(0.5, 0.0, 0.0, 0.5),

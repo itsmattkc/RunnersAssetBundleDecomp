@@ -16,6 +16,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     sampler2D _MainTex;
     float4 _ScrollingSpeed;
     float4 _AmbientColor;

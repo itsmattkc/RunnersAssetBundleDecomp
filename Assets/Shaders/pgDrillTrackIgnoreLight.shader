@@ -14,6 +14,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     sampler2D _MainTex;
     half4 _MainTex_ST;
     float _OffsetZ;

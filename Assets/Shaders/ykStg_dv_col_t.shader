@@ -13,6 +13,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     sampler2D _MainTex;
     sampler2D _LitTex;
     float4 _AmbientColor;
@@ -39,8 +41,8 @@ SubShader {
       v2f o;
 
       o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
-      o.texcoord0 = v.texcoord0;
-      o.texcoord1 = (mul(v.texcoord1.xy, unity_LightmapST.xy) + unity_LightmapST.zw);
+      o.texcoord0 = v.texcoord0.xy;
+      o.texcoord1 = ((v.texcoord1.xy * unity_LightmapST.xy) + unity_LightmapST.zw);
       o.color = v.color;
 
       return o;

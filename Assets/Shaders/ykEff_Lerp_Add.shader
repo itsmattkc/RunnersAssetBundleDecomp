@@ -20,6 +20,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     float4 _StOneCol;
     float4 _EdOneCol;
     float4 _StZeroCol;

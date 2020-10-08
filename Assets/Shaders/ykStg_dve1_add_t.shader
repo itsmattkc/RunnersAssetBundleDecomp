@@ -14,6 +14,8 @@ SubShader {
     #pragma vertex vert
     #pragma fragment frag
 
+    #include "UnityCG.cginc"
+
     half4 unity_LightmapST;
     sampler2D _MainTex;
     sampler2D _EnvTex;
