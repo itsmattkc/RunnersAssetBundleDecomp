@@ -1,6 +1,8 @@
 using UnityEditor;
 using UnityEngine;
 using System.IO;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ExportAssetBundles
 {
@@ -1592,6 +1594,12 @@ public class ExportAssetBundles
     BuildAssetBundles(BuildTarget.Android, "Android", bundles);
   }
 
+  [MenuItem ("Assets/Build All AssetBundles For Mac")]
+  public static void BuildAllMac()
+  {
+    BuildAssetBundles(BuildTarget.StandaloneOSXIntel64, "Mac", bundles);
+  }
+
   [MenuItem ("Assets/Build All AssetBundles For iOS")]
   public static void BuildAlliPhone()
   {
@@ -1604,27 +1612,57 @@ public class ExportAssetBundles
     BuildAssetBundles(BuildTarget.StandaloneWindows, "Windows", bundles);
   }
 
-  [MenuItem ("Assets/Build Single AssetBundle For Android")]
+  public static string[] ListSelectedScenes()
+  {
+    List<string> scenes = new List<string>();
+    foreach (Object o in Selection.objects) {
+      string path = AssetDatabase.GetAssetPath(o);
+
+      if (path.EndsWith(".unity")) {
+        scenes.Add(Path.GetFileNameWithoutExtension(path));
+      }
+    }
+
+    if (scenes.Count == 0) {
+        UnityEngine.Debug.LogWarning("No scenes are selected");
+    }
+
+    return scenes.ToArray();
+  }
+
+  [MenuItem ("Assets/Build Selected AssetBundles For Android")]
   public static void BuildSingleAndroid()
   {
-    string input = EditorUtility.OpenFilePanel("Which scene should be built?", "", "");
-    if (string.IsNullOrEmpty(input)) return;
-    BuildAssetBundles(BuildTarget.Android, "Android", new string[]{Path.GetFileNameWithoutExtension(input)});
+    string[] input = ListSelectedScenes();
+    if (input.Length > 0) {
+      BuildAssetBundles(BuildTarget.Android, "Android", input);
+    }
   }
 
-  [MenuItem ("Assets/Build Single AssetBundle For iOS")]
+  [MenuItem ("Assets/Build Selected AssetBundles For Mac")]
+  public static void BuildSingleMac()
+  {
+    string[] input = ListSelectedScenes();
+    if (input.Length > 0) {
+      BuildAssetBundles(BuildTarget.StandaloneOSXIntel64, "Mac", input);
+    }
+  }
+
+  [MenuItem ("Assets/Build Selected AssetBundles For iOS")]
   public static void BuildSingleiPhone()
   {
-    string input = EditorUtility.OpenFilePanel("Which scene should be built?", "", "");
-    if (string.IsNullOrEmpty(input)) return;
-    BuildAssetBundles(BuildTarget.iPhone, "iOS", new string[]{Path.GetFileNameWithoutExtension(input)});
+    string[] input = ListSelectedScenes();
+    if (input.Length > 0) {
+      BuildAssetBundles(BuildTarget.iPhone, "iOS", input);
+    }
   }
 
-  [MenuItem ("Assets/Build Single AssetBundle For Windows")]
-  public static void BuildSingleStandaloneWindows()
+  [MenuItem ("Assets/Build Selected AssetBundles For Windows")]
+  public static void BuildSingleWindows()
   {
-    string input = EditorUtility.OpenFilePanel("Which scene should be built?", "", "");
-    if (string.IsNullOrEmpty(input)) return;
-    BuildAssetBundles(BuildTarget.StandaloneWindows, "Windows", new string[]{Path.GetFileNameWithoutExtension(input)});
+    string[] input = ListSelectedScenes();
+    if (input.Length > 0) {
+      BuildAssetBundles(BuildTarget.StandaloneWindows, "Windows", input);
+    }
   }
 }
