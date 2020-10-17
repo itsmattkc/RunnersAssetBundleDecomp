@@ -1584,7 +1584,7 @@ public class ExportAssetBundles
     string path = EditorUtility.SaveFolderPanel("Where should we place the " + platform_name + " AssetBundles?", "", "");
     if (string.IsNullOrEmpty(path)) return;
     foreach (string s in bundles_to_build) {
-      BuildPipeline.BuildPlayer(new string[]{"Assets/AssetBundles/Assets/" + s + ".unity"}, path + "/" + s + ".unity3d", target, BuildOptions.BuildAdditionalStreamedScenes);
+      BuildPipeline.BuildPlayer(new string[]{"Assets/AssetBundles/" + s + ".unity"}, path + "/" + s + ".unity3d", target, BuildOptions.BuildAdditionalStreamedScenes);
     }
   }
 
