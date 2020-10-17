@@ -6,24 +6,13 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: "w02_bg002"
+  m_Name: w02_bg002
   m_Shader: {fileID: 4800000, guid: eadb226e1c904ca486f2b6b8196e303c, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 
-  m_EnableInstancingVariants: 0
+  m_ShaderKeywords: []
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-      data:
-        first:
-          name: _LitTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 28df89a843b34f408d388330ae7e669c, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _MainTex
@@ -31,13 +20,20 @@ Material:
           m_Texture: {fileID: 2800000, guid: 9d1f6ebaec1740f9979ec3022bc8507d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: []
+      data:
+        first:
+          name: _LitTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 28df89a843b34f408d388330ae7e669c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
     m_Colors:
       data:
         first:
-          name: _AmbientColor
-        second: {r: 0.7026, g: 0.7639, b: 0.8309, a: 1}
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _Color
+          name: _AmbientColor
         second: {r: 1, g: 1, b: 1, a: 1}
