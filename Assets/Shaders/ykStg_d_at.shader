@@ -39,8 +39,8 @@ SubShader {
    Bind "texcoord", TexCoord1
   }
   Blend SrcAlpha OneMinusSrcAlpha
-  SetTexture [_LitTex] { Matrix [unity_LightmapMatrix] combine texture * texture alpha double }
-  SetTexture [_MainTex] { combine texture * previous quad, texture alpha }
+  SetTexture [_LitTex] { Matrix [unity_LightmapMatrix] combine texture }
+  SetTexture [_MainTex] { combine texture * previous double, texture alpha }
   SetTexture [_LitTex] { ConstantColor [_AmbientColor] combine previous * constant }
  }
 }
