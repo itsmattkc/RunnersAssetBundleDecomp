@@ -24,7 +24,7 @@ public class ExportAssetBundles
     List<string> filtered = new List<string>();
     foreach (string s in files) {
       if (s.EndsWith(".unity")) {
-        filtered.Add(s);
+        filtered.Add(Path.GetFileNameWithoutExtension(s));
       }
     }
     return filtered.ToArray();
